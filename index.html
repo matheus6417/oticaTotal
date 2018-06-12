@@ -9,12 +9,11 @@
     name="description">
   <meta content="Home" property="og:title">
   <meta content="Óculos personalizados e trabalhados com cuidado usando materiais premium." property="og:description">
-  <!-- <meta content="https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ae70e6b9f5a6af730d5815c_topology_og2.png" property="og:image"> -->
+  <!-- <meta content="logo.svg" property="og:image"> -->
   <!-- TODO: AJUSTAR FOTO COM LOGO ORIGINAL -->
   <meta content="summary" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="style.css" rel="stylesheet"
-    type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
   <script type="text/javascript">
     ! function (o, c) {
@@ -24,6 +23,7 @@
         t + "touch")
     }(window, document);
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
   <!-- TODO: ALTERAR FAVICON E WEBCLIP-->
   <!-- <link href="https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ad4ed3d1689b028b61b05f1_favicon.png" rel="shortcut icon" type="image/x-icon"> -->
   <!-- <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon"> -->
@@ -36,8 +36,247 @@
 
     svg.bubble-header {
       position: absolute;
-    bottom: 0px;
-    overflow: hidden;
+      bottom: 0px;
+      overflow: hidden;
+    }
+
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking),
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column,
+    .hypervisual__content-block--html-image,
+    .hypervisual__content-block--html-image .hypervisual__html,
+    .hypervisual__content-block--text-image,
+    .hypervisual__content-block--text-image .hypervisual__text,
+    .hypervisual__content-block--text-video,
+    .hypervisual__content-block--text-video .hypervisual__text,
+    .hypervisual__devices-mobile-only,
+    .hypervisual__image,
+    .hypervisual__image img,
+    .hypervisual__video {
+      display: block
+    }
+
+    .hypervisual__library-multi-column-4up-divider,
+    .hypervisual__library-multi-column-image-text-4up-divider,
+    .hypervisual__library-pricing-table-4up-divider {
+      clear: both
+    }
+
+    .hypervisual__content-block--2up-quote {
+      width: 100%
+    }
+
+    .hypervisual__quote-image {
+      margin: auto;
+      clear: both;
+      float: none
+    }
+
+    .hypervisual__quote-image-left,
+    .hypervisual__quote-image-right {
+      float: none;
+      left: auto
+    }
+
+    .hypervisual__content-block--2up-quote .hypervisual__quote-text {
+      width: 100%;
+      padding: 20px;
+      text-align: center
+    }
+
+    .hypervisual__content-block--html-image .hypervisual__html-left,
+    .hypervisual__content-block--html-image .hypervisual__image-right,
+    .hypervisual__content-block--text-image .hypervisual__image-right,
+    .hypervisual__content-block--text-image .hypervisual__text-left,
+    .hypervisual__content-block--text-video .hypervisual__text-left,
+    .hypervisual__content-block--text-video .hypervisual__video-right {
+      position: initial;
+      left: auto
+    }
+
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_10,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_15,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_20,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_25,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_30,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_35,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_40,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_45,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_50,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_55,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_60,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_65,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_70,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_75,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_80,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_85,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column1-block.hypervisual__column_width_90,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_10,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_15,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_20,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_25,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_30,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_35,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_40,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_45,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_50,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_55,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_60,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_65,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_70,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_75,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_80,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_85,
+    .hypervisual__column_stacking_reverse:not(.hypervisual__no-mobile-stacking) .hypervisual__column2-block.hypervisual__column_width_90,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column {
+      left: 0
+    }
+
+    .hypervisual__content-block--text {
+      padding: 0 20px
+    }
+
+    .hypervisual__text-align-right {
+      text-align: left
+    }
+
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column,
+    .hypervisual__content-block--html-image .hypervisual__html,
+    .hypervisual__content-block--text-image .hypervisual__text,
+    .hypervisual__content-block--text-video .hypervisual__text,
+    .hypervisual__image-left,
+    .hypervisual__image-right,
+    .hypervisual__text-left,
+    .hypervisual__text-right,
+    .hypervisual__video-left,
+    .hypervisual__video-right {
+      width: 100%;
+      float: none
+    }
+
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_10,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_15,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_20,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_25,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_30,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_35,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_40,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_45,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_50,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_55,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_60,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_65,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_70,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_75,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_80,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_85,
+    .hypervisual__content-block--columns:not(.hypervisual__no-mobile-stacking) .hypervisual__column.hypervisual__column_width_90 {
+      width: 100%;
+      float: none;
+      left: 0
+    }
+
+    .hypervisual__devices-desktop-only,
+    .hypervisual__devices-desktop-only:not(.hypervisual__no-mobile-stacking) {
+      display: none
+    }
+
+    .hypervisual__library-pricing-table-column-3up {
+      width: 100%;
+      margin-bottom: 30px
+    }
+
+    .hypervisual__library-pricing-table-column-4up {
+      width: 50%;
+      margin-bottom: 30px
+    }
+
+    .hypervisual__library-multi-column-image-text-column-2up,
+    .hypervisual__library-multi-column-image-text-column-3up {
+      width: 100%;
+      margin-bottom: 30px
+    }
+
+    .hypervisual__library-multi-column-image-text-column-4up {
+      width: 50%;
+      margin-bottom: 30px
+    }
+
+    .hypervisual__library-multi-column-product-column-2up,
+    .hypervisual__library-multi-column-product-column-3up {
+      width: 100%;
+      margin-bottom: 30px
+    }
+
+    .hypervisual__library-multi-column-product-column-4up {
+      width: 50%;
+      margin-bottom: 30px
+    }
+
+    .hypervisual__collection-2up .hypervisual__collection-product-column,
+    .hypervisual__collection-3up .hypervisual__collection-product-column {
+      width: 100%;
+      margin-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      float: none
+    }
+
+    .hypervisual__collection-4up .hypervisual__collection-product-column {
+      width: 50%;
+      margin-bottom: 30px
+    }
+
+    .hypervisual__library-vertical-image-text-image {
+      margin-left: -20px;
+      margin-right: -20px
+    }
+
+    img[data-action=hypervisual__zoom] {
+      cursor: default
+    }
+
+    @media (max-width:480px) {
+      .mobile-single-column .hypervisual__library-multi-column-image-text-column-4up,
+      .mobile-single-column .hypervisual__library-multi-column-product-column-4up,
+      .mobile-single-column .hypervisual__library-pricing-table-column-4up {
+        width: 100%;
+        margin-bottom: 30px
+      }
+      .mobile-single-column .hypervisual__collection-4up .hypervisual__collection-product-column {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        float: none
+      }
+      .hypervisual__button.hypervisual__text-small,
+      .hypervisual__text-small,
+      .hypervisual__text-small *,
+      input.hypervisual__text-small {
+        font-size: 13px;
+        line-height: 18px
+      }
+      .hypervisual__button.hypervisual__text-medium,
+      .hypervisual__text-medium,
+      .hypervisual__text-medium *,
+      input.hypervisual__text-medium {
+        font-size: 16px;
+        line-height: 23px
+      }
+      .hypervisual__button.hypervisual__text-large,
+      .hypervisual__text-large,
+      .hypervisual__text-large *,
+      input.hypervisual__text-large {
+        font-size: 21px;
+        line-height: 26px
+      }
+      .hypervisual__button.hypervisual__text-xlarge,
+      .hypervisual__text-xlarge,
+      .hypervisual__text-xlarge *,
+      input.hypervisual__text-xlarge {
+        font-size: 32px;
+        line-height: 40px
+      }
     }
   </style>
 </head>
@@ -48,11 +287,8 @@
       <div class="floating-cell top">
         <a href="index.html" class="brand w-inline-block w--current">
           <!-- TODO: ALTERAR LOGOMARCA E MARCA PARA MOBILE-->
-          <!-- <img src="https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205249ba9a4d6_Topology_logo_black_afea1295-0f17-491d-b2b6-44b48068cbd8_280x%402x.png"
-            class="image-8"> -->
-          <!-- <img src="https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5acbba7bdf47bf18809273ee_Icon%402x.png" width="40"
-            class="image-9"> -->
-        </a>
+          <img src="logo.svg" class="image-8">
+          <img src="logo.svg" width="40" class="image-9"> </a>
       </div>
     </div>
     <div class="_1200-container home-header-content">
@@ -70,13 +306,164 @@
     </div>
     <svg class="bubble-header" viewBox="0 0 2000 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M2.95875508e-10,0.271075437 C1.44325251e-05,0.0924814466 0.528253498,-5.71696376e-14 1.59600999,-5.68434189e-14 C48.1099871,-5.68434189e-14 1957.58289,1.84741111e-13 2000,8.52651283e-14 C956.905816,171.471291 -0.000614269229,7.87245453 2.95875508e-10,0.271075437 L0,0 L2000,0 L2000,80 L0,80 L0,0.271075437 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        <path d="M2.95875508e-10,0.271075437 C1.44325251e-05,0.0924814466 0.528253498,-5.71696376e-14 1.59600999,-5.68434189e-14 C48.1099871,-5.68434189e-14 1957.58289,1.84741111e-13 2000,8.52651283e-14 C956.905816,171.471291 -0.000614269229,7.87245453 2.95875508e-10,0.271075437 L0,0 L2000,0 L2000,80 L0,80 L0,0.271075437 Z"
+          id="Combined-Shape" fill="#FFFFFF"></path>
       </g>
     </svg>
   </div>
+  <div id="benefits" class="section">
+    <div class="_1200-container light benefits">
+      <h2 class="heading-2 our-eyewear-heading">Não perca mais tempo pra encontrar sua ótica ideal</h2>
+      <div class="container-table">
+        <div class="div-block-3">
+          <div class="frame" style="height: auto;padding: 20px; background-image: none">
+            <img src="https://cdn.gethypervisual.com/images/shopify/f61be25f-9778-4225-8b04-9af57b2c19c9/w1200_64ef_1_copy.png"
+              alt="" title="" style="" data-action="">
+              <div class="div-block-12">
+                  <h3 class="heading-2 panes centered">Ganhe uma consulta por R$ 100, no seu horário.</h3>
+                  <div class="copy semilight">Venha receber um cupom para fazer sua consulta por apenas R$ 100,00, Segunta à Sexta até as 21h, e sábados até
+                    as 14h.
+                    <br> Ficaremos felizes em atender sua prescrição, seja de lentes progressivas, miopia ou astigmatismo. </div>
+                </div>
+          </div>
+
+        </div>
+        <div class="div-block-3">
+            <div class="frame" style="height: auto;padding: 20px; background-image: none">
+                <img src="https://cdn.gethypervisual.com/images/shopify/f61be25f-9778-4225-8b04-9af57b2c19c9/w1200_d96e_2_copy.png"
+                alt="" title="" style="" data-action="">
+                <div class="div-block-12">
+                    <h3 class="heading-2 panes centered">Orientação de Especialistas </h3>
+                    <div class="copy semilight">Se você tiver alguma dúvida ou precisar de algum esclarecimento, sinta-se à vontade para clicar no balão de bate-papo
+                        no canto inferior direito. Ou venha até nossa loja!</div>
+                  </div>
+            </div>
+
+          </div> <div class="div-block-3">
+              <div class="frame" style="height: auto;padding: 20px; background-image: none">
+                  <img src="https://cdn.gethypervisual.com/images/shopify/f61be25f-9778-4225-8b04-9af57b2c19c9/w1200_1722_3_copy.png"
+                  alt="" title="" style="" data-action="">
+                  <div class="div-block-12">
+                      <h3 class="heading-2 panes centered">Tenha uma visão perfeita, com um ajuste perfeito</h3>
+                      <div class="copy semilight">Para uma visão perfeita, você precisa de suas lentes posicionadas com precisão em relação aos seus olhos. Capturamos
+                          as medidas precisas necessárias para otimizar a distância pupilar, a altura ótica, o ângulo de contorno, a
+                          distância do vértice e a inclinação pantoscópica.</div>
+                    </div>
+              </div>
+
+            </div>
+      </div>
+      <div class="container-table">
+          <div class="div-block-3">
+            <div class="frame" style="height: auto;padding: 20px; background-image: none">
+                <img src="https://cdn.gethypervisual.com/images/shopify/f61be25f-9778-4225-8b04-9af57b2c19c9/w1200_2a8c_4_copy.png"
+                alt="" title="" style="" data-action="">
+                <div class="div-block-12">
+                    <h3 class="heading-2 panes centered">Apenas as melhores lentes</h3>
+                    <div class="copy semilight">Seus óculos ficarão perfeitos, usando sempre as melhores lentes do mercado. Nós sempre usamos lentes de maior
+                        índice e ideais para sua prescrição.
+                        <br>
+                        <br>Também incluímos, por padrão, muitos dos revestimentos premium que outras insistiriam em cobrar a mais de
+                        você.</div>
+                  </div>
+            </div>
+  
+          </div>
+          <div class="div-block-3">
+              <div class="frame" style="height: auto;padding: 20px; background-image: none">
+                  <img src="https://cdn.gethypervisual.com/images/shopify/f61be25f-9778-4225-8b04-9af57b2c19c9/w1200_d27c_5_copy.png"
+                  alt="" title="" style="" data-action="">
+                  <div class="div-block-12">
+                      <h3 class="heading-2 panes centered">Preço justo e qualidade inquestionável</h3>
+                      <div class="copy semilight"> <div>Todas as nossas lentes são feitas com materiais da mais alta qualidade e incluem:</div>
+                      <ul>
+                        <li>Revestimento anti-reflexo</li>
+                        <li>Revestimento hidrofóbico (ajuda a manter a água / a umidade fora)</li>
+                        <li>Resistência anti-risco</li>
+                      </ul></div>
+                    </div>
+              </div>
+
+            </div> <div class="div-block-3">
+                <div class="frame" style="height: auto;padding: 20px; background-image: none">
+                    <img src="https://cdn.gethypervisual.com/images/shopify/f61be25f-9778-4225-8b04-9af57b2c19c9/w1200_90e6_6_copy.png"
+                    alt="" title="" style="" data-action="">
+                    <div class="div-block-12">
+                        <h3 class="heading-2 panes centered">Tenha ainda mais com Upgrades Premium</h3>
+                        <div class="copy semilight"> <div>Também oferecemos os seguintes upgrades de lente premium:</div>
+                        <ul>
+                          <li>Bloqueio de luz azul (+ R$ 100,00) - filtra a luz azul ao usar computadores</li>
+                          <li>Transitions (+ R$ 80.00) - fotocromáticas, o que significa que elas mudam de claras para escuras quando você
+                            sai no sol</li>
+                          <li>Filtro polarizado de óculos de sol (+ R$ 50.00)</li>
+                        </ul>
+                        <div>Os preços podem variar de acordo com sua prescrição.</div></div>
+                      </div>
+                </div>
+
+              </div>
+        </div>
+    </div>
+
+  </div>
+
+
+                <strong></strong>
+              </div>
+            </div>
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <div class="hypervisual__library-multi-column-image-text-details hypervisual__text-medium">
+
+            </div>
+            <!---->
+          </div>
+        </div>
+        <!---->
+        <div class="hypervisual__library-multi-column-image-text-column hypervisual__library-multi-column-image-text-column-3up">
+          <div class="hypervisual__library-multi-column-image-text-column-image">
+            <div class="hypervisual__image-holder">
+
+              <!---->
+            </div>
+          </div>
+          <div class="hypervisual__library-multi-column-image-text-column-text">
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <div class="hypervisual__library-multi-column-image-text-headline hypervisual__text-large" style="color: #404040;">
+              <div>
+                <strong></strong>
+              </div>
+            </div>
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <div class="hypervisual__library-multi-column-image-text-details hypervisual__text-medium">
+
+            </div>
+            <!---->
+          </div>
+        </div>
+        <!---->
+        <div class="hypervisual__clearfix"></div>
+      </div>
+      <div class="hypervisual__clearfix"></div>
+    </div>
+  </div>
+  </div>
   <div id="our-styles" class="section">
     <div class="_1200-container light collection">
-      <h2 class="heading-2">Escolha seu estilo:</h2>
+      <h2 class="heading-2">Seu estilo está aqui</h2>
       <div class="container _2col"></div>
       <div class="w-row">
         <div class="column w-col w-col-4">
@@ -200,7 +587,9 @@
     </div>
   </div>
   <div id="quiz" class="section lined demo" style="border: none; padding: 0;">
-      <svg viewBox="0 0 1200 53" class="col-12 absolute top-0 text-white" style="height: auto;color: #fff;fill: #fff;"><path fill="currentColor" d="M1196.008 53H1200V0H0v44.816-8.184C159.341 14.63 311.343 2.484 456.007.196 600.122-2.084 846.789 15.518 1196.008 53z"></path></svg>
+    <svg viewBox="0 0 1200 53" class="col-12 absolute top-0 text-white" style="height: auto;color: #fff;fill: #fff;">
+      <path fill="currentColor" d="M1196.008 53H1200V0H0v44.816-8.184C159.341 14.63 311.343 2.484 456.007.196 600.122-2.084 846.789 15.518 1196.008 53z"></path>
+    </svg>
     <div class="w-embed">
       <style>
         ::-webkit-scrollbar {
@@ -316,9 +705,8 @@
             <div class="pane-content slipping" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Escorrega:</strong> Topology eliminates slipping by individually sculpting lightweight materials to the
-                  contours of the your nose and the precise location of each ear for a comfortable fit that stays put all
-                  day.</div>
+                  <strong class="bold-text">Escorrega:</strong> Eliminamos escorregões, esculpindo individualmente materiais leves para os contornos
+                  do nariz e para a localização precisa de cada orelha para um ajuste confortável que permanece o dia todo.</div>
               </div>
             </div>
           </div>
@@ -326,8 +714,8 @@
             <div class="pane-content cheeks" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Touching cheeks:</strong> Our in-app fitting captures thousands of 3D measurements used to sculpt your
-                  frame so it sits comfortably on your face without touching your cheeks.</div>
+                  <strong class="bold-text">Toca as bochechas:</strong> Nossas medições são feitas para que você não tenha problemas com óculos tocando
+                  as bochechas.</div>
               </div>
             </div>
           </div>
@@ -335,8 +723,9 @@
             <div class="pane-content stretching" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Stretching out:</strong> Topology frames will never lose their original fit because we never use heat to
-                  bend or shape them during the making process. Instead, we sculpt the material to your precise measurements.</div>
+                  <strong class="bold-text">Astes frouxas:</strong> Nossas armações nunca perderão seu ajuste original porque nunca usamos calor para
+                  dobrá-las ou moldá-las durante o processo de fabricação. Em vez disso, esculpimos o material para suas
+                  medições precisas.</div>
               </div>
             </div>
           </div>
@@ -344,8 +733,8 @@
             <div class="pane-content eyelashes" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Touching eyelashes:</strong> Our in-app facial scan is able to place lenses at your ideal vertex distance
-                  so you see clearly and never have to worry about your eyelashes brushing against your lenses.</div>
+                  <strong class="bold-text">Toca os cílios:</strong> Colocamos as lentes na sua distância ideal de vértice, para que você veja com
+                  clareza e nunca precise se preocupar com os seus cílios roçando suas lentes.</div>
               </div>
             </div>
           </div>
@@ -353,8 +742,8 @@
             <div class="pane-content red" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Red marks:</strong> Topology eliminates red marks by building the bridge area around the exact size and
-                  shape of your nose to evenly distribute the frame’s weight across your face.</div>
+                  <strong class="bold-text">Marcas vermelhas:</strong> Eliminamos as marcas vermelhas construindo a área da ponte nasal em torno do
+                  melhor ajuste para seu nariz distribuindo uniformemente o peso em seu rosto.</div>
               </div>
             </div>
           </div>
@@ -362,8 +751,8 @@
             <div class="pane-content crooked" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Crooked:</strong> Our intelligent in-app face scan captures even the slightest asymmetry. We treat the
-                  left and right nose pads independently to allow the frame to sit straight no matter your facial asymmetry.</div>
+                  <strong class="bold-text">Torto:</strong> Nós tratamos as plaquetas esquerda e direita de forma independente para permitir que a
+                  armação fique em linha reta, não importa sua assimetria facial.</div>
               </div>
             </div>
           </div>
@@ -371,8 +760,7 @@
             <div class="pane-content small" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Too small:</strong> Topology frames are made to order, so every style is sized to the precise width and
-                  shape of your face.</div>
+                  <strong class="bold-text">Muito pequeno:</strong> Temos armações dimensionadas para a largura e a forma precisa do seu rosto.</div>
               </div>
             </div>
           </div>
@@ -380,8 +768,7 @@
             <div class="pane-content big" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Too big:</strong> Topology frames are made to order, so every style is sized to the precise width and shape
-                  of your face.</div>
+                  <strong class="bold-text">Muito grande:</strong> Temos armações dimensionadas para a largura e a forma precisa do seu rosto.</div>
               </div>
             </div>
           </div>
@@ -389,8 +776,8 @@
             <div class="pane-content thick" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Lens thickness:</strong> Strong prescription? No problem. We ensure your lenses are in the highest index
-                  (up to 1.74) required to achieve the lightest, clearest, and most attractive outcome.</div>
+                  <strong class="bold-text">Lentes grossas:</strong> Prescrição forte? Sem problemas. Garantimos que suas lentes estejam no índice
+                  mais alto (até 1,74) necessário para alcançar o resultado mais leve, mais claro e mais atraente.</div>
               </div>
             </div>
           </div>
@@ -398,9 +785,9 @@
             <div class="pane-content heavy" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Too heavy:</strong> Topology eyewear feels weightless because we individually sculpt frames to distribute
-                  their weight evenly across your nose and size temple arms to properly match your ears. We also make sure
-                  to use the highest index lens required for your prescription.</div>
+                  <strong class="bold-text">Muito pesado:</strong> Nossos óculos até parecem sem peso porque ajustamos as molduras para distribuir
+                  seu peso uniformemente através do nariz e tamanho das astes da têmpora para combinar adequadamente com
+                  as orelhas. Nós também nos certificamos de usar lentes finas para sua prescrição.</div>
               </div>
             </div>
           </div>
@@ -408,9 +795,8 @@
             <div class="pane-content distorted" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
                 <div class="copy light tab">
-                  <strong class="bold-text">Distorted vision:</strong> We create lenses that are individually surfaced with freeform optics, meaning
-                  they’re adapted to provide the clearest possible vision no matter where your focus is. The result is a
-                  larger rage of view and sharper eyesight with less distortion.</div>
+                  <strong class="bold-text">Visão distorcida:</strong> Nossas lentes são adaptadas para fornecer a visão mais clara possível, não importa
+                  onde esteja o seu foco. O resultado é uma visão mais nítida, com menos distorção.</div>
               </div>
             </div>
           </div>
@@ -418,8 +804,8 @@
             <div class="pane-content else" data-ix="tab-content-fades-in">
               <div class="pane-copy-2" data-ix="more-infos-fades-in"></div>
               <div class="pane-copy-2" data-ix="more-infos-fades-in">
-                <div class="copy light tab">Have issues not listed here? Custom-made glasses sculpted to your measurements may solve these as well. Chat
-                  with our style &amp; optics experts via the website or in the app to find out more.</div>
+                <div class="copy light tab">Tem problemas não listados aqui? Óculos feitos sob medida e esculpidos em suas medidas também podem resolvê-los.
+                  Converse com nossos especialistas em estilo e ótica pelo site ou na nossa loja para saber mais.</div>
               </div>
             </div>
           </div>
@@ -429,39 +815,40 @@
     <div class="_1200-container upper">
       <div class="floating-cell _7col home-demo-section w-clearfix">
         <div class="primary-action symptoms-cta demo">
-          <a id="btn-fit-assessment" href="#" class="button-2 primary home w-button">QUERO RESOLVER DE VEZ</a>
+          <a id="btn-fit-assessment" href="#" class="button-2 primary home w-button">Quero um óculos perfeito</a>
         </div>
       </div>
     </div>
-    <svg viewBox="0 0 1200 46" class="col-12 text-white absolute bottom-0" style="margin-bottom: -8px;height: auto;color: #fff;fill: #fff;"><path fill="currentColor" fill-rule="evenodd" d="M0-7h1200v53H0V-7zm0 30.113V-7h1200v43.495c-37.762 7.58-155.36 7.58-352.791 0C721.412 31.665 480.68.297 248.535.355 197.087.368 114.242 7.955 0 23.113z"></path></svg>
+    <svg viewBox="0 0 1200 46" class="col-12 text-white absolute bottom-0" style="margin-bottom: -8px;height: auto;color: #fff;fill: #fff;">
+      <path fill="currentColor" fill-rule="evenodd" d="M0-7h1200v53H0V-7zm0 30.113V-7h1200v43.495c-37.762 7.58-155.36 7.58-352.791 0C721.412 31.665 480.68.297 248.535.355 197.087.368 114.242 7.955 0 23.113z"></path>
+    </svg>
   </div>
   <div id="eyewear" class="section">
     <div class="_1200-container light our-eyewear">
-      <h2 class="heading-2 our-eyewear-heading">Our eyewear feels like it was made just for you...
-        <br>because it was.</h2>
+      <h2 class="heading-2 our-eyewear-heading">Nossos óculos parecem que foram feitos só para você ...</h2>
       <div class="container-table">
         <div class="div-block-3">
           <div class="frame fr1"></div>
           <div class="div-block-12">
-            <h3 class="heading-2 panes centered">Real-Time Guidance</h3>
-            <div class="copy semilight">Live chat or email our style &amp; optics experts anytime! They’ll stay in touch and provide one-on-one assistance
-              throughout the entire process.</div>
+            <h3 class="heading-2 panes centered">Orientação em Tempo Real</h3>
+            <div class="copy semilight">Bate-papo ao vivo ou por chat com nossos especialistas em estilo e ótica a qualquer momento! Venha à loja e tenha
+              assistência individual durante todo o processo.</div>
           </div>
         </div>
         <div class="div-block-3">
           <div class="frame"></div>
           <div class="div-block-12">
-            <h3 class="heading-2 panes centered">Expert Engineers</h3>
-            <div class="copy semilight">Our mechanical engineers run quality checks at every critical point — from verifying your face scan is error
-              free, through to the details of final production.</div>
+            <h3 class="heading-2 panes centered">Engenheiros especialistas</h3>
+            <div class="copy semilight">Nosso engenheiro executa verificações de qualidade em todos os pontos críticos - desde a verificação de sua estrutura
+              facial até a verificação dos detalhes da produção final.</div>
           </div>
         </div>
         <div class="div-block-3">
           <div class="frame fr3"></div>
           <div class="div-block-13">
-            <h3 class="heading-2 panes centered">Premium Materials</h3>
-            <div class="copy semilight">Each frame is crafted from high-quality Italian acetate or American-made stainless steel for a lightweight and
-              durable feel.</div>
+            <h3 class="heading-2 panes centered">Materiais Premium</h3>
+            <div class="copy semilight">Cada armação é trabalhada a partir de acetato italiano de alta qualidade ou aço inoxidável de fabricação americana
+              para uma sensação leve e durável.</div>
           </div>
         </div>
       </div>
@@ -470,40 +857,40 @@
   <div class="section lined promise">
     <div class="_1200-container flex promise-container">
       <div class="floating-cell _7col gaped">
-        <h2 class="heading-2 promise">Our Promise</h2>
+        <h2 class="heading-2 promise">Nossa promessa</h2>
         <div class="promise w-container">
-          <h3 class="heading-2 panes spaced">A Perfect Fit For Any Face</h3>
-          <div class="copy semilight aligned">Made to wear, and sculpted to fit your unique face and prescription.</div>
+          <h3 class="heading-2 panes spaced">Um ajuste perfeito para qualquer rosto</h3>
+          <div class="copy semilight aligned">Feito para usar e esculpido para caber em seu rosto único sob sua prescrição.</div>
         </div>
         <div class="promise w-container">
-          <h3 class="heading-2 panes spaced">End-To-End Quality</h3>
-          <div class="copy semilight aligned">Crafted with care using premium materials.</div>
+          <h3 class="heading-2 panes spaced">Qualidade de ponta a ponta</h3>
+          <div class="copy semilight aligned">Trabalhados com cuidado usando materiais premium.</div>
         </div>
         <div class="promise w-container">
-          <h3 class="heading-2 panes spaced">100% Satisfaction</h3>
-          <div class="copy semilight aligned">Wear it and love it, or your money back.</div>
+          <h3 class="heading-2 panes spaced">100% de satisfação</h3>
+          <div class="copy semilight aligned">Vista-o e ame-o, ou seu dinheiro de volta.</div>
         </div>
       </div>
     </div>
   </div>
-  <div class="section lined innovative">
+  <div class="section innovative">
     <img src="https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d8220504f6a9a4f4_Path%206.svg" class="image-3">
     <div class="_1200-container flex">
       <div class="floating-cell vision left">
-        <h2 class="heading-2 innovative">Better Vision</h2>
-        <div class="copy semilight aligned spaced">Glasses that fit better do in fact help you see better. In our fitting, we capture not only measurements from the
-          front of your face, but also its depth, width, and the precise location of each ear. We use these measurements
-          (along with thousands more) to correctly position your prescription in front of your eye providing you with clearer
-          vision.</div>
-        <div class="copy semilight aligned spaced">Our technology is precise to the millimeter and captures your ideal pupillary distance, optical height, wrap angle,
-          vertex distance, and pantoscopic tilt.</div>
+        <h2 class="heading-2 innovative">Visão impecável</h2>
+        <div class="copy semilight aligned spaced">Óculos que se encaixam melhor de fato ajudam você a enxergar melhor. Em nossa montagem, medimos não apenas as medidas
+          da frente do rosto, mas também a profundidade, a largura e a localização precisa de cada orelha. Usamos essas medidas
+          (junto com milhares de outras) para posicionar corretamente sua prescrição na frente de seus olhos, proporcionando
+          uma visão mais clara. </div>
+        <div class="copy semilight aligned spaced">Nossa tecnologia é precisa ao milímetro e obtemos sua distância pupilar ideal, altura óptica, ângulo de contorno,
+          distância do vértice e inclinação pantoscópica.</div>
         <a href="https://topologyeyewear.app.link/itep1rqZZM" class="button main-dl occurence w-inline-block"></a>
       </div>
       <div class="floating-cell _7col vision">
         <div class="component-accordion">
           <div class="accordion-item first">
             <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe244e" class="accordion-item-header">
-              <h4 class="text-block-3 default">High-Index Lenses</h4>
+              <h4 class="text-block-3 default">Lentes de alto-índice</h4>
               <div class="accordion-header-icon-wrapper">
                 <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe2452" class="sign clone plus off"></div>
                 <div class="sign on"></div>
@@ -511,10 +898,11 @@
             </div>
             <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe2455" class="row open w-row">
               <div class="accordion-column w-col w-col-6">
-                <p class="copy longer">High-index lenses are made to be thinner than traditional lenses to accommodate those with strong prescriptions.
+                <p class="copy longer">Lentes de alto índice são feitas para serem mais finas do que as lentes tradicionais para prescrições fortes
+                  se manterem finas.
                   <br>
-                  <br>Our lens specialists review each order and select the index that keeps your lenses as lightweight and thin
-                  as possible, without degrading performance. We never charge extra for high-index lenses.</p>
+                  <br>Nossos especialistas em lentes analisam cada pedido e selecionam o índice que mantém suas lentes leves
+                  e finas, sem prejudicar o desempenho. Nunca cobramos mais por lentes de alto índice.</p>
               </div>
               <div class="accordion-column w-col w-col-6">
                 <img src="https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5afdc7fc1cb7796f356a1489_BetterVision-final-02.png"
@@ -524,7 +912,7 @@
           </div>
           <div class="accordion-item">
             <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe245c" class="accordion-item-header">
-              <h4 data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe245d" class="text-block-3">State-Of-The-Art Progressives</h4>
+              <h4 data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe245d" class="text-block-3">Progressivas de última geração</h4>
               <div class="accordion-header-icon-wrapper">
                 <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe2460" class="sign clone plus"></div>
                 <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe2461" class="sign"></div>
@@ -532,12 +920,12 @@
             </div>
             <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe2463" class="row closed w-row">
               <div class="accordion-column w-col w-col-6">
-                <p class="copy longer">We build your frame around your prescription.
+                <p class="copy longer">Nós construímos o seu quadro em torno de sua receita.
                   <br>
-                  <br>Your facial scan tells us exactly where the custom frame will position your lens. This allows us to create
-                  your lens with the largest possible reading area and widest intermediate corridor, as well as minimize
-                  peripheral distortion. Chat with a style &amp; optics expert in the app for help choosing a frame or to
-                  learn more about our progressives.</p>
+                  <br>Seu exame facial nos diz exatamente onde a armação personalizada posicionará sua lente. Isso nos permite
+                  criar sua lente com a maior área de leitura possível e o corredor intermediário mais amplo, além de minimizar
+                  a distorção periférica. Converse com nossos especialistas em estilo e ótica para ajudar a escolher um quadro
+                  ou saber mais sobre nossas lentes.</p>
               </div>
               <div class="accordion-column w-col w-col-6">
                 <img src="https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5afdc88aead65d8d536756c5_BetterVision-final-03.png"
@@ -547,7 +935,7 @@
           </div>
           <div class="accordion-item">
             <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe246a" class="accordion-item-header">
-              <h4 data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe246b" class="text-block-3">Premium Coatings</h4>
+              <h4 data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe246b" class="text-block-3">Revestimentos premium</h4>
               <div class="accordion-header-icon-wrapper">
                 <div class="sign clone plus"></div>
                 <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe246f" class="sign"></div>
@@ -555,12 +943,13 @@
             </div>
             <div class="row closed w-row">
               <div class="accordion-column w-col w-col-6">
-                <p class="copy longer">All our lenses come standard with 4 premium protective coatings that make cleaning and care easier.
+                <p class="copy longer">Todas as nossas lentes vêm de fábrica com 4 revestimentos de proteção premium que facilitam a limpeza e o
+                  cuidado.
                   <br>
-                  <br>• Scratch-resistant coating
-                  <br>• Anti-reflective coating
-                  <br>• UV protective coating
-                  <br>• Super-hydrophobic coating</p>
+                  <br>• Revestimento resistente a riscos
+                  <br>• Revestimento anti-reflexo
+                  <br>• Revestimento de proteção UV
+                  <br>• Revestimento super-hidrofóbico</p>
               </div>
               <div class="accordion-column w-col w-col-6">
                 <img src="https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5afdc8a13c4ec373fa708f03_BetterVision-final-01.png"
@@ -570,7 +959,7 @@
           </div>
           <div class="accordion-item">
             <div data-w-id="a0574c32-6dcc-7d7c-fb00-25b841548722" class="accordion-item-header">
-              <h4 class="text-block-3">Protective Filters &amp; Sun Tints</h4>
+              <h4 class="text-block-3">Filtros UV &amp; Proteção Solar</h4>
               <div class="accordion-header-icon-wrapper">
                 <div class="sign clone plus"></div>
                 <div class="sign"></div>
@@ -578,13 +967,13 @@
             </div>
             <div class="row closed w-row">
               <div class="accordion-column w-col w-col-6">
-                <p class="copy longer">We offer a range of optional lens treatments and sun tints.
+                <p class="copy longer">Oferecemos uma gama de tratamentos opcionais de lentes e tonalidades solares.
                   <br>
-                  <br>• Polarization
-                  <br>• Blue-light blocking
-                  <br>• Transitions (photochromic lenses)
-                  <br>• Olive and brown sun tints
-                  <br>• Silver, blue, orange, or red mirror tints</p>
+                  <br>• Polarização
+                  <br>• Bloqueio de luz azul
+                  <br>• Transitions (lentes fotocromáticas)
+                  <br>• Proteção solar
+                  <br>• Matiz de prata, azul, laranja ou vermelho</p>
               </div>
               <div class="accordion-column w-col w-col-6">
                 <img src="https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5afdc8b2c94d73e06296ecfe_BetterVision-final-04.png"
@@ -640,7 +1029,7 @@
               {
                 "items": [{
                   "width": 880,
-                  "caption": "Classic hues and bold statement colors. ",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a65103f4dadd8e_v1@2x.jpg",
                   "origFileName": "v1@2x.jpg",
@@ -664,7 +1053,7 @@
               {
                 "items": [{
                   "width": 424,
-                  "caption": "Acetate frames equipped with non-loosening, smooth-motion hinges.",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a65185b7dadd5c_v2@2x.jpg",
                   "origFileName": "v2@2x.jpg",
@@ -688,7 +1077,7 @@
               {
                 "items": [{
                   "width": 728,
-                  "caption": "Permanent personalized engraving included with every order.",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a651a65adadd8f_v3@2x.jpg",
                   "origFileName": "v3@2x.jpg",
@@ -712,7 +1101,7 @@
               {
                 "items": [{
                   "width": 276,
-                  "caption": "Union frame customized for three unique bridge widths. ",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a65184a9dadd58_v4@2x.jpg",
                   "origFileName": "v4@2x.jpg",
@@ -738,7 +1127,7 @@
               {
                 "items": [{
                   "width": 576,
-                  "caption": "Acetate nose pads adapted for two different nose shapes.",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a6513c62dadd77_v5@2x.jpg",
                   "origFileName": "v5@2x.jpg",
@@ -762,7 +1151,7 @@
               {
                 "items": [{
                   "width": 728,
-                  "caption": "Style sunglasses in a variety of lens tints. ",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a6516b41dadd76_v6@2x.jpg",
                   "origFileName": "v6@2x.jpg",
@@ -786,7 +1175,7 @@
               {
                 "items": [{
                   "width": 576,
-                  "caption": "Asymmetric nose bridge sculpted to fit a hooked nose. ",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a65162dcdadd75_v7@2x.jpg",
                   "origFileName": "v7@2x.jpg",
@@ -810,7 +1199,7 @@
               {
                 "items": [{
                   "width": 424,
-                  "caption": "Mix and match front and temple colors.",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a651b8e7dadd5b_v8@2x.jpg",
                   "origFileName": "v8@2x.jpg",
@@ -864,7 +1253,7 @@
               {
                 "items": [{
                   "width": 880,
-                  "caption": "Classic hues and bold statement colors. ",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a65103f4dadd8e_v1@2x.jpg",
                   "origFileName": "v1@2x.jpg",
@@ -884,7 +1273,7 @@
               {
                 "items": [{
                   "width": 424,
-                  "caption": "Acetate frames equipped with non-loosening, smooth-motion hinges.",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a65185b7dadd5c_v2@2x.jpg",
                   "origFileName": "v2@2x.jpg",
@@ -904,7 +1293,7 @@
               {
                 "items": [{
                   "width": 728,
-                  "caption": "Permanent personalized engraving included with every order.",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a651a65adadd8f_v3@2x.jpg",
                   "origFileName": "v3@2x.jpg",
@@ -924,7 +1313,7 @@
               {
                 "items": [{
                   "width": 576,
-                  "caption": "Acetate nose pads adapted for two different nose shapes.",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a6513c62dadd77_v5@2x.jpg",
                   "origFileName": "v5@2x.jpg",
@@ -944,7 +1333,7 @@
               {
                 "items": [{
                   "width": 276,
-                  "caption": "Union frame customized for three unique bridge widths. ",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a65184a9dadd58_v4@2x.jpg",
                   "origFileName": "v4@2x.jpg",
@@ -964,7 +1353,7 @@
               {
                 "items": [{
                   "width": 576,
-                  "caption": "Asymmetric nose bridge sculpted to fit a hooked nose. ",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a65162dcdadd75_v7@2x.jpg",
                   "origFileName": "v7@2x.jpg",
@@ -984,7 +1373,7 @@
               {
                 "items": [{
                   "width": 728,
-                  "caption": "Style sun glasses in a variety of lens tints.",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a6516b41dadd76_v6@2x.jpg",
                   "origFileName": "v6@2x.jpg",
@@ -1004,7 +1393,7 @@
               {
                 "items": [{
                   "width": 424,
-                  "caption": "Mix and match front and temple colors.",
+                  "caption": "Descricao da foto",
                   "height": 520,
                   "fileName": "5ada05f3d9a651b8e7dadd5b_v8@2x.jpg",
                   "origFileName": "v8@2x.jpg",
@@ -1034,28 +1423,31 @@
           <div class="_1200-container flex editorial">
             <div class="floating-cell _7col edito-header">
               <div class="div-block-8">
-                <h2 class="heading-2 what edito firstname">Rachel</h2>
-                <h2 class="heading-2 what edito">(Cedar Falls, IA)</h2>
+                <h2 class="heading-2 what edito firstname">Raquel</h2>
+                <h2 class="heading-2 what edito">(Itajaí, Empresa)</h2>
               </div>
               <div class="div-block-6">
-                <div class="text-block-4">Problems:</div>
-                <a href="#" class="toggle-link alone neutral">Slipping</a>
-                <a href="#" class="toggle-link alone neutral">Too Big</a>
+                <div class="text-block-4">Problemas antes da Ótica Total:</div>
+                <a href="#" class="toggle-link alone neutral">Escorregava</a>
+                <a href="#" class="toggle-link alone neutral">Muito grande</a>
               </div>
             </div>
             <div style="background-image:url(&quot;https://uploads-ssl.webflow.com/5ac27ae3d822051c21a9a4c1/5ac4f9d3511166e85346adcc_face%201%402x.jpg&quot;)"
               class="div-block-7 first"></div>
             <div class="floating-cell _7col shifted">
-              <h3 class="heading-2 edito quote exception-title">Having glasses that fit my face without shopping in the kid&#x27;s section was ideal.</h3>
+              <h3 class="heading-2 edito quote exception-title">Ter óculos que cabem meu rosto sem fazer compras na seção infantil era ideal.</h3>
             </div>
             <div class="floating-cell _7col edito-body">
               <div class="testimonial-body w-richtext">
-                <p>“I have a very narrow face and the ability to have glasses made that fit my face without shopping in the
-                  kid's section was ideal. The glasses fit my face and I can wear them all day at work and I love the style.&nbsp;
-                  I work on the computer all day and having the blue light blocking lenses was important to me.&nbsp;</p>
-                <p>The prototypes that were sent were very useful in determining the fit and getting a visual of how the glasses
-                  would look on me.&nbsp; The style and color selections are very up to date and I continue to receive compliments
-                  on my glasses.&nbsp; Very fast response to emails which I really appreciated.”</p>
+                <p>“Eu tenho um rosto muito estreito e a capacidade de fazer óculos que caibam no meu rosto sem fazer compras
+                  na seção infantil era ideal. Os óculos se encaixam no meu rosto e eu posso usá-los todos os dias no trabalho
+                  e eu amo o estilo. Eu trabalho no computador o dia todo e ter as lentes bloqueadoras de luz azul era importante
+                  para mim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et libero molestie, porttitor metus varius,
+                  condimentum magna. Duis ac felis sed risus pulvinar finibus. Nulla rutrum lectus in metus fermentum interdum.
+                  Duis nec ante egestas, euismod tellus sed, aliquam lacus. Pellentesque volutpat feugiat varius. Vivamus
+                  placerat efficitur turpis sit amet iaculis. Ut vitae rhoncus odio, sed ultricies sapien. Integer dignissim
+                  sed nulla posuere auctor.”</p>
               </div>
             </div>
           </div>
@@ -1071,30 +1463,29 @@
             <div class="floating-cell _7col edito-header inverse">
               <div class="div-block-8">
                 <h2 class="heading-2 what edito firstname">Maria</h2>
-                <h2 class="heading-2 what edito">(San Francisco, CA)</h2>
+                <h2 class="heading-2 what edito">(Balneário Camboriú, Empresa Y)</h2>
               </div>
               <div class="div-block-6">
-                <div class="text-block-4">Problems:</div>
-                <a href="#" class="toggle-link alone neutral">Slipping</a>
-                <a href="#" class="toggle-link alone neutral">Red Marks</a>
-                <a href="#" class="toggle-link alone neutral">Too Small</a>
-                <a href="#" class="toggle-link alone neutral">Touching Eyelashes</a>
-                <a href="#" class="toggle-link alone neutral">Distorted Vision</a>
+                <div class="text-block-4">Problemas antes da Ótica Total:</div>
+                <a href="#" class="toggle-link alone neutral">Escorregava</a>
+                <a href="#" class="toggle-link alone neutral">Marcas vermelhas</a>
+                <a href="#" class="toggle-link alone neutral">Muito pequeno</a>
+                <a href="#" class="toggle-link alone neutral">Tocava cílios</a>
+                <a href="#" class="toggle-link alone neutral">Visão distorcida</a>
               </div>
             </div>
             <div style="background-image:url(&quot;https://uploads-ssl.webflow.com/5ac27ae3d822051c21a9a4c1/5ac4fa3f511166673f46aebe_face%203%402x.jpg&quot;)"
               class="div-block-7 shifted"></div>
-            <h3 class="heading-2 edito quote inverse exception-2">Hands down the most comfortable sunglasses I have ever owned.</h3>
+            <h3 class="heading-2 edito quote inverse exception-2">Os óculos de sol mais confortáveis ​​que eu já possuí.</h3>
             <div class="floating-cell _7col shifted inverse"></div>
             <div class="floating-cell _7col edito-body inverse">
               <div class="testimonial-body w-richtext">
-                <p>“From the moment I tried on my first custom-made pair, my views (pardon the pun) of wearing glasses changed.
-                  Hands down, these are the most comfortable glasses I have ever owned. They are a bit pricey but worth every
-                  penny and a good investment in my quality of life. I don’t feel pressure on my temples anymore, and I don’t
-                  get dizzy from my progressive lenses because of the precise fit and the quality of the lenses.&nbsp;</p>
-                <p>I was also pleasantly surprised that I was able to customize the wrap which relieves my photosensitive eyes.
-                  They have a great selection of frames and the ordering and customization process is straight forward. I
-                  just ordered my 3rd pair and I am extremely happy with them.”</p>
+                <p>“Desde o momento em que experimentei meu primeiro par da Ótica Total, minhas opiniões de usar óculos mudaram.
+                  Estes são os óculos mais confortáveis ​​que eu já possuí. Valem cada centavo que são um bom investimento
+                  na minha qualidade de vida. Eu não sinto mais pressão nas minhas têmporas e não fico tonta com as minhas
+                  lentes progressivas por causa do ajuste preciso e da qualidade das lentes.&nbsp;</p>
+                <p>Eles têm uma ótima quantidade de armações e o atendimento é maravilhoso. Acabei de comprar meu terceiro par
+                  e estou extremamente feliz com eles.”</p>
               </div>
             </div>
           </div>
@@ -1113,20 +1504,23 @@
       </div>
       <!-- TODO: ATUALIZAR MARCAS OCULOS POR ESSAS https://scontent.fnvt1-1.fna.fbcdn.net/v/t31.0-8/s720x720/17620368_1813303098695894_908483004183794765_o.jpg?_nc_cat=0&oh=7c78d30e7513ce0f0ad2d9c29da427fd&oe=5BB949EE -->
       <div class="div-block-10">
-          <a href="http://www.businessinsider.com/ar-is-now-a-must-have-in-retail-2017-10" class="w-inline-block">
-            <div class="logo-container"></div>
-          </a>
-          <a href="https://www.forbes.com/sites/kristenphilipkoski/2017/12/26/spend-that-2017-fsa-money-on-these-bespoke-glasses-you-can-order-from-your-phone/#7d78e32d2014" class="w-inline-block">
-            <div class="logo-container l2"></div>
-          </a>
-          <a href="https://techcrunch.com/2017/10/02/topology-lets-you-try-before-you-buy-glasses-using-ar-in-an-app/" class="w-inline-block">
-            <div class="logo-container l3"></div>
-          </a>
-        <a href="http://www.sfchronicle.com/style/article/For-your-eyes-face-only-12364379.php" class="w-inline-block">
-            <div class="logo-container l4"></div>
-          </a><a href="https://loosethreads.com/blog/2017/9/20/for-your-eyes-only-with-eric-varady-of-topology-eyewear" class="w-inline-block">
-            <div class="logo-container l6"></div>
-          </a></div></div>
+        <a href="#" class="w-inline-block" style="padding-right: 60px;">
+          <div class="logo-container"></div>
+        </a>
+        <a href="#" class="w-inline-block">
+          <div class="logo-container l2"></div>
+        </a>
+        <a href="#" class="w-inline-block">
+          <div class="logo-container l3"></div>
+        </a>
+        <a href="#" class="w-inline-block">
+          <div class="logo-container l4"></div>
+        </a>
+        <a href="#" class="w-inline-block" style="padding-left: 60px;">
+          <div class="logo-container l6 "></div>
+        </a>
+      </div>
+    </div>
   </div>
   <footer class="section footer">
     <div class="_1200-container footer">
@@ -1134,8 +1528,7 @@
         <div class="footer-cell-1">
           <div class="footer-cell">
             <!-- TODO: ATUALIZAR LOGOMARCA FOOTER -->
-            <!-- <img src="https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5aff0a2efa977f6bb2a33dc1_image.png" width="212"
-              class="image-5"> -->
+            <img src="logo.svg" width="212" class="image-5">
             <div class="address">Av. Cel. Marcos Konder, 789
               <br>Itajaí - SC, 88301-303
               <br>
