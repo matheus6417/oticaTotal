@@ -10843,3 +10843,26 @@ h5{margin-bottom:12px;}
 .footer h5,.footer a{
   color: lightgrey!important;
 }
+
+
+
+
+ /* start: sessao de marcas */
+ /*! CSS Used from: https://uploads-ssl.webflow.com/5aafd5b167150a6f051ab605/css/un-template.webflow.da77ea147.css */
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+img{border:0;}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+img{max-width:100%;vertical-align:middle;display:inline-block;}
+.w-inline-block{max-width:100%;display:inline-block;}
+.w-clearfix:before,.w-clearfix:after{content:" ";display:table;}
+.w-clearfix:after{clear:both;}
+a{color:#aaa;text-decoration:underline;}
+.logo-wrapper{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:20%;height:120px;float:left;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;opacity:0.3;}
+@media (max-width: 991px){
+.logo-wrapper{width:33.333%;}
+}
+@media (max-width: 479px){
+.logo-wrapper{width:100%;}
+}
+/* end:sessao de marcas */
