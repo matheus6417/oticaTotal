@@ -2461,7 +2461,7 @@ figcaption {
 .section.header {
   height: 704px;
   padding-right: 0;
-  padding-top: 50px;
+  margin-top: 50px;
   padding-left: 0;
   background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4c6926484cf31ad3e9e29_hero%20image%402x.jpg);
   background-position: 50% 50%;
@@ -11215,33 +11215,6 @@ img {
 
 /* start: sessao de marcas */
 
-/*! CSS Used from: https://uploads-ssl.webflow.com/5aafd5b167150a6f051ab605/css/un-template.webflow.da77ea147.css */
-
-a {
-  background-color: transparent;
-}
-
-a:active,
-a:hover {
-  outline: 0;
-}
-
-img {
-  border: 0;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
-}
-
 .w-inline-block {
   max-width: 100%;
   display: inline-block;
@@ -11255,11 +11228,6 @@ img {
 
 .w-clearfix:after {
   clear: both;
-}
-
-a {
-  color: #aaa;
-  text-decoration: underline;
 }
 
 .logo-wrapper {
@@ -11294,3 +11262,106 @@ a {
 }
 
 /* end:sessao de marcas */
+
+
+/* start sessao de barra superior */
+/*! CSS Used from: https://daks2k3a4ib2z.cloudfront.net/58d15e8dc8699c5a260084d8/css/doctoria-theme.webflow.3ac241cef.css */
+
+a.w-list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+@media screen and (max-width:991px) {
+  .w-hidden-medium {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .w-hidden-medium {
+    display: inherit !important;
+  }
+  .w-hidden-small {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:479px) {
+  .w-hidden-medium {
+    display: inherit !important;
+  }
+  .w-hidden-small {
+    display: inherit !important;
+  }
+  .w-hidden-tiny {
+    display: none !important;
+  }
+}
+
+.meta {
+    border-bottom: 1px solid rgba(0, 0, 0, .09);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    width: 100%;
+    z-index: 999999;
+}
+
+.meta-list {
+  margin: 0px -10px;
+  float: left;
+  font-size: 13px;
+  line-height: 35px;
+}
+
+.meta-list.right {
+  float: right;
+  text-align: right;
+}
+
+.meta-list-item {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 300;
+}
+
+.container {
+  display: block;
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 479px) {
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+/*end sessao de barra superior */
+/*! CSS Used from: https://daks2k3a4ib2z.cloudfront.net/58f556b54513f478483fb655/css/maven-template.webflow.2a71ef012.css */
+
+.w-inline-block{max-width:100%;display:inline-block;}
+ul{margin-top:0;margin-bottom:10px;padding-left:40px;}
+.w-list-unstyled{padding-left:0;list-style:none;}
+ul{margin-top:0px;margin-bottom:25px;padding-left:0px;}
+img{display:inline-block;max-width:100%;}
+.link-list{list-style-type:none;}
+.link-list.social-list{position:relative;bottom:2px;display:inline-block;margin-bottom:0px;}
+.link-list-item{display:inline-block;margin-right:12.5px;}
+.link-list-item.social-list-item{margin-right:25px;}
+.social-icon{width:20px;height:20px;}
+.social-link{opacity:0.5;-webkit-transition:opacity 200ms ease;transition:opacity 200ms ease;}
+.social-link:hover{opacity:1;}
