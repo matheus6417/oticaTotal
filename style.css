@@ -11307,6 +11307,7 @@ a.w-list-unstyled {
     bottom: auto;
     width: 100%;
     z-index: 999999;
+    box-shadow: 0px -10px 20px black;
 }
 
 .meta-list {
