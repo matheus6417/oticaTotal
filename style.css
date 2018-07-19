@@ -2463,7 +2463,8 @@ figcaption {
   padding-right: 0;
   margin-top: 50px;
   padding-left: 0;
-  background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4c6926484cf31ad3e9e29_hero%20image%402x.jpg);
+  background-image: url(img/otica-total-itajai-hero-ray-ban.jpg);
+  /* background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4c6926484cf31ad3e9e29_hero%20image%402x.jpg); */
   background-position: 50% 50%;
   background-size: cover
 }
@@ -11235,9 +11236,9 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 14%;
+  /* width: 14%; */
   height: 85px;
-  float: left;
+  /* float: left; */
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -11246,7 +11247,7 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 @media (max-width: 991px) {
@@ -11260,7 +11261,19 @@ img {
     width: 100%;
   }
 }
+.logo-wrapper:hover {
+  opacity: 1;
 
+}
+.logo-wrapper img {
+    max-height: 45px;
+    max-width: 130px;
+}
+.container-logos{
+  justify-content: space-between;
+  display: flex;
+  align-items: baseline;
+}
 /* end:sessao de marcas */
 
 
