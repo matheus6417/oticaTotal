@@ -4788,7 +4788,7 @@ figcaption {
     height: 14px;
     margin-right: 4px;
     border-radius: 10px;
-    background-image: url(img/example-bg.png);
+    background-image: url(img/placeholder-thumb.svg);
     background-position: 50% 50%;
     background-size: 24px
 }
@@ -5393,7 +5393,7 @@ figcaption {
 }
 
 .exception {
-    background-image: url(img/example-bg.png);
+    background-image: url(img/placeholder-thumb.svg);
     background-position: 100% 0;
     background-size: 55vw
 }
@@ -6786,7 +6786,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
 .header {
     width: 100%;
     height: 100%;
-    background-image: url(img/example-bg.png);
+    background-image: url(img/placeholder-thumb.svg);
     background-position: 50% 50%
 }
 
@@ -10620,8 +10620,6 @@ html.w-mod-js [data-ix=fade-in-on-load] {
     display: none
 }
 
-/*! CSS Used from: https://daks2k3a4ib2z.cloudfront.net/571cab5c86c1049c4c0e7047/css/template-university.webflow.95b68562d.css */
-
 /* nav{display:block;}
 a{background-color:transparent;}
 a:active,a:hover{outline:0;}
@@ -11251,7 +11249,6 @@ img {
 
 /* start sessao de barra superior */
 
-/*! CSS Used from: https://daks2k3a4ib2z.cloudfront.net/58d15e8dc8699c5a260084d8/css/doctoria-theme.webflow.3ac241cef.css */
 
 a.w-list-unstyled {
     padding-left: 0;
@@ -11339,8 +11336,6 @@ a.w-list-unstyled {
 }
 
 /*end sessao de barra superior */
-
-/*! CSS Used from: https://daks2k3a4ib2z.cloudfront.net/img/css/maven-template.webflow.2a71ef012.css */
 
 .w-inline-block {
     max-width: 100%;
@@ -11570,7 +11565,7 @@ img {
         position: absolute;
         top: 35%;
         left: 50%;
-        cursor: all-scroll;
+        cursor: -webkit-grab;
         transform: translateX(-50%);
         border-radius: 100%;
         transition: all .3s ease;
@@ -12049,7 +12044,6 @@ h5 {
 /* media video home
  */
 
-/*! CSS Used from: https://newkajabi.com/stylesheets/all.css */
 
 div {
     margin: 0;
@@ -12254,7 +12248,7 @@ svg {
     background-color: rgba(31, 33, 35, 0.85);
     -webkit-box-shadow: 0 4px 18px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0 4px 18px 2px rgba(0, 0, 0, 0.3);
-    padding: 6px;
+    padding: 0;
 }
 
 .small-video__embed {
@@ -12273,7 +12267,7 @@ svg {
 }
 
 .small-video__blurb {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0;
     padding: 0 20px 0 0;
     color: #ffffff;
@@ -12333,4 +12327,8 @@ svg {
     .big-hero__ornament--1 {
         bottom: 160px;
     }
+}
+
+.vertical-scroll-footer.w-inline-block {
+    filter: invert(1);
 }
