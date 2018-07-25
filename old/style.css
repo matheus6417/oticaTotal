@@ -1,4 +1,4 @@
-﻿b,
+b,
 h1,
 h2,
 h3,
@@ -2463,6 +2463,8 @@ figcaption {
     padding-right: 0;
     margin-top: 50px;
     padding-left: 0;
+    /* background-image: url(img/otica-total-itajai-hero-ray-ban.jpg);
+    /* background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4c6926484cf31ad3e9e29_hero%20image%402x.jpg); */
     background-position: 50% 50%;
     background-size: cover;
     background-image: url(img/banner-varilux-1920.jpg);
@@ -2522,7 +2524,7 @@ figcaption {
 .section.lined.testimonial {
     padding-top: 80px;
     padding-bottom: 40px;
-    background-image: url(img/5ac373d1e45951df26592065_Path 8.svg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac373d1e45951df26592065_Path%208.svg);
     background-position: 100% 88%;
     background-repeat: no-repeat
 }
@@ -2541,14 +2543,14 @@ figcaption {
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #f8f8f8;
-    
+    z-index: ;
 }
 
 .section.footer {
     height: auto;
     padding: 80px 16px;
     background-color: #222;
-    background-image: url(img/5ac378c1795e75a768cf230c_footer texture.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac378c1795e75a768cf230c_footer%20texture.png);
     background-position: 0 0;
     background-size: auto
 }
@@ -2566,7 +2568,7 @@ figcaption {
     border-top: 1px solid rgba(102, 85, 255, .1);
     border-bottom-style: solid;
     border-bottom-color: rgba(102, 85, 255, .1);
-    background-image: url(img/5b199c517ca36c3c5825badd_CTA PANEL_2.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b199c517ca36c3c5825badd_CTA%20PANEL_2.png);
     background-position: 50% 50%;
     background-size: cover
 }
@@ -2645,8 +2647,7 @@ figcaption {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    text-align: left;
-     z-index:9;
+    text-align: left z-index:9;
 }
 
 .floating-cell.h1._7col.results {
@@ -2837,7 +2838,7 @@ figcaption {
     border: 2px solid #222;
     border-radius: 6px;
     background-color: hsla(0, 0%, 100%, .61);
-    background-image: url(img/5ac27ae3d8220580eba9a4d7_logo apple.svg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d8220580eba9a4d7_logo%20apple.svg);
     background-position: 15px 43%;
     background-size: 20px;
     color: #222;
@@ -3373,7 +3374,7 @@ figcaption {
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
-    background-image: url(img/5ad50072b89caca17df956b9_How-It-Works-v4-1.svg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ad50072b89caca17df956b9_How-It-Works-v4-1.svg);
     background-position: 0 0
 }
 
@@ -3387,30 +3388,37 @@ figcaption {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    background-image: url(img/5ad50072b89cacfd37f956ba_How-It-Works-v4-2.svg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ad50072b89cacfd37f956ba_How-It-Works-v4-2.svg)
 }
 
 .poc-block.pb2.web-experiment-2 {
-    background-image: url(img/5ad50072b89caca17df956b9_How-It-Works-v4-1.svg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ad50072b89caca17df956b9_How-It-Works-v4-1.svg);
     background-size: contain
 }
 
-
-.poc-block.pb3 {
-    background-image: url(img/5ad50072cf05bf8583545d34_How-It-Works-v4-3.svg)
+.poc-block.pb2.web-experiment-4 {
+    background-image: url("https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b15d9e9b7c4595e31987643_howitworks_2%404x%20(1).jpg");
+    background-size: contain
 }
 
+.poc-block.pb3 {
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ad50072cf05bf8583545d34_How-It-Works-v4-3.svg)
+}
 
+.poc-block.pb3.web-experiment-1 {
+    background-image: url("https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b15d9e9b7c4595e31987643_howitworks_2%404x%20(1).jpg");
+    background-size: contain
+}
 
 .poc-block.pb4 {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    background-image: url(img/5ad5007329e755e4ffbffb2e_How-It-Works-v4-4.svg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ad5007329e755e4ffbffb2e_How-It-Works-v4-4.svg)
 }
 
 .poc-block.puu2 {
-    background-image: url(img/5ad50072b89cacfd37f956ba_How-It-Works-v4-2.svg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ad50072b89cacfd37f956ba_How-It-Works-v4-2.svg)
 }
 
 .poc-block.web-experiment {
@@ -3424,43 +3432,44 @@ figcaption {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+    background-image: url("https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b15d9e9b7c4595e31987643_howitworks_2%404x%20(1).jpg");
     background-size: contain;
     background-attachment: scroll
 }
 
 .poc-block.web-experiment-3 {
     height: 300px;
-    background-image: url(img/5b16e186b16e3e5a48201346_Union.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b16e186b16e3e5a48201346_Union.png);
     background-size: contain
 }
 
 .poc-block.web-experiment-3.cortland {
-    background-image: url(img/5b16e16eb16e3e43d62012e6_Cortland.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b16e16eb16e3e43d62012e6_Cortland.png)
 }
 
 .poc-block.web-experiment-3.lombard {
-    background-image: url(img/5b16e25e627e3111321956b7_Bay.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b16e25e627e3111321956b7_Bay.png)
 }
 
 .poc-block.web-experiment-3.bay {
-    background-image: url(img/5b16e2737b6de36adf5b5149_Octavia.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b16e2737b6de36adf5b5149_Octavia.png)
 }
 
 .poc-block.web-experiment-3.octavia {
-    background-image: url(img/5b16e287b16e3e23ce2015e2_Montgomery.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b16e287b16e3e23ce2015e2_Montgomery.png)
 }
 
 .poc-block.web-experiment-3.montgomery {
-    background-image: url(img/5b16e29ba1e1ca72350b29ec_Sansome.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b16e29ba1e1ca72350b29ec_Sansome.png)
 }
 
 .poc-block.web-experiment-3.sansome {
-    background-image: url(img/5b16e2b056453f5c3e847ff3_Dolores.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b16e2b056453f5c3e847ff3_Dolores.png)
 }
 
 .poc-block.web-experiment-3.angel,
 .poc-block.web-experiment-3.dolores {
-    background-image: url(img/5b16e2c3b16e3e617220168b_Angel.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b16e2c3b16e3e617220168b_Angel.png)
 }
 
 .div-block {
@@ -3629,7 +3638,7 @@ figcaption {
     margin-right: 0;
     padding-left: 50px;
     background-color: #fff;
-    background-image: url(img/5ac64f000ed0ad9c844f4a25_Oval 2@2x.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac64f000ed0ad9c844f4a25_Oval%202%402x.png);
     background-position: 0 50%;
     background-size: 32px;
     background-repeat: no-repeat;
@@ -3696,36 +3705,36 @@ figcaption {
     -ms-flex-align: end;
     align-items: flex-end;
     background-color: #f8f8f8;
-    background-image: url(img/5acd0e4d8bad9956a2c7a179_cm_touchingeyelashes@2x.jpg), url(img/5acd0e4d6634d2170d4d11c3_glasses_active@2x.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5acd0e4d8bad9956a2c7a179_cm_touchingeyelashes%402x.jpg), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5acd0e4d6634d2170d4d11c3_glasses_active%402x.jpg);
     background-size: contain, contain
 }
 
 .pane-content.pc2 {
-    background-image: url(img/5ac27ae3d822054a57a9a4f0_f4.jpg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822054a57a9a4f0_f4.jpg)
 }
 
 .pane-content.pc3 {
-    background-image: url(img/5ac27ae3d8220585a6a9a4ee_f7.jpg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d8220585a6a9a4ee_f7.jpg)
 }
 
 .pane-content.pc4 {
-    background-image: url(img/5ac27ae3d8220569bba9a4ed_f3.jpg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d8220569bba9a4ed_f3.jpg)
 }
 
 .pane-content.pc5 {
-    background-image: url(img/5ac27ae3d8220510e9a9a4ec_f2.jpg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d8220510e9a9a4ec_f2.jpg)
 }
 
 .pane-content.pc6 {
-    background-image: url(img/5ac27ae3d8220525aba9a4ea_f6.jpg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d8220525aba9a4ea_f6.jpg)
 }
 
 .pane-content.pc7 {
-    background-image: url(img/5ac27ae3d822054a2ba9a4eb_f8.jpg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822054a2ba9a4eb_f8.jpg)
 }
 
 .pane-content.headaches {
-    background-image: url(img/5adf27842061c35c32ba8f5e_cm_headaches@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf27842061c35c32ba8f5e_cm_headaches%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.headaches.your-fit {
@@ -3733,7 +3742,7 @@ figcaption {
 }
 
 .pane-content.pinching {
-    background-image: url(img/5adf27841a9edc3b710970c2_cm_pinching@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf27841a9edc3b710970c2_cm_pinching%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png);
     background-size: contain, contain
 }
 
@@ -3752,7 +3761,7 @@ figcaption {
 }
 
 .pane-content.nose-bridge {
-    background-image: url(img/5adf27841a9edc387f0970c1_cm_nosebridge@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf27841a9edc387f0970c1_cm_nosebridge%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.slipping {
@@ -3761,7 +3770,7 @@ figcaption {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    background-image: url(img/5adf27861a9edc897d0970c6_cm_touchingeyelashes@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf27861a9edc897d0970c6_cm_touchingeyelashes%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.slipping.exception {
@@ -3774,7 +3783,7 @@ figcaption {
 .pane-content.cheeks {
     width: 50vw;
     float: right;
-    background-image: url(img/5adf2784ba1f353dae81a23c_cm_restingoncheeks@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf2784ba1f353dae81a23c_cm_restingoncheeks%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png);
     background-size: contain, contain
 }
 
@@ -3784,7 +3793,7 @@ figcaption {
 }
 
 .pane-content.stretching {
-    background-image: url(img/5adf27872061c376eeba8f63_cm_stretchingout@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf27872061c376eeba8f63_cm_stretchingout%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png);
     background-size: contain, contain
 }
 
@@ -3800,44 +3809,44 @@ figcaption {
 }
 
 .pane-content.touching {
-    background-image: url(img/5ac4bd1c6484cf3a703e964f_touching.jpg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4bd1c6484cf3a703e964f_touching.jpg)
 }
 
 .pane-content.red {
-    background-image: url(img/5adf2784a8954c8a1da36a9a_cm_redmarks@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf2784a8954c8a1da36a9a_cm_redmarks%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.crooked {
-    background-image: url(img/5adf27842061c37c8bba8f5d_cm_crooked@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf27842061c37c8bba8f5d_cm_crooked%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.small {
-    background-image: url(img/5adf2786ba1f35ee7881a23d_cm_toosmall@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf2786ba1f35ee7881a23d_cm_toosmall%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.big {
-    background-image: url(img/5adf27861a9edc83890970c5_cm_toobig@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf27861a9edc83890970c5_cm_toobig%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.thick {
-    background-image: url(img/5adf2784a8954c3426a36a9b_cm_lensthickness@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf2784a8954c3426a36a9b_cm_lensthickness%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.heavy {
-    background-image: url(img/5adf27872061c374c0ba8f64_cm_tooheavy@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf27872061c374c0ba8f64_cm_tooheavy%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.distorted {
-    background-image: url(img/5adf27840ea44b55c4bc7e3d_cm_distortedvision@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf27840ea44b55c4bc7e3d_cm_distortedvision%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.else {
-    background-image: url(img/5adf2786a8954c1224a36a9c_cm_somethingelse@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf2786a8954c1224a36a9c_cm_somethingelse%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png)
 }
 
 .pane-content.blended {
-    background-image: -webkit-linear-gradient(270deg, #f8f8f8, #f8f8f8), url(img/5ac4b659511166ed8c465914_heavy.jpg);
-    background-image: linear-gradient(180deg, #f8f8f8, #f8f8f8), url(img/5ac4b659511166ed8c465914_heavy.jpg);
+    background-image: -webkit-linear-gradient(270deg, #f8f8f8, #f8f8f8), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4b659511166ed8c465914_heavy.jpg);
+    background-image: linear-gradient(180deg, #f8f8f8, #f8f8f8), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4b659511166ed8c465914_heavy.jpg);
     background-position: 0 0, 100% 0;
     background-size: auto, contain;
     background-repeat: repeat, no-repeat
@@ -3883,33 +3892,33 @@ figcaption {
 }
 
 .pane-content.your-needs.sun-protection {
-    background-image: url(img/5ac27ae3d822052a2aa9a4dc_get fitted and style glasses.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822052a2aa9a4dc_get%20fitted%20and%20style%20glasses.jpg);
     background-size: auto
 }
 
 .pane-content.your-needs.computer-glasses {
-    background-image: url(img/5ac27ae3d82205c3f4a9a4db_scan your face.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205c3f4a9a4db_scan%20your%20face.jpg);
     background-size: auto
 }
 
 .pane-content.your-needs.material-quality {
     width: 100%;
     max-width: 1200px;
-    background-image: url(img/5ac27ae3d822058efca9a4e6_pchldr.svg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822058efca9a4e6_pchldr.svg);
     background-size: auto
 }
 
 .pane-content.your-needs.gym {
-    background-image: url(img/5ac27ae3d822054521a9a4e5_pchldr2.svg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822054521a9a4e5_pchldr2.svg);
     background-size: auto
 }
 
 .pane-content.default {
-    background-image: url(img/5addb4dac66eeba2e7509395_purple-frames@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dac66eeba2e7509395_purple-frames%402x.png)
 }
 
 .pane-content.eyelashes {
-    background-image: url(img/5adf27861a9edc897d0970c6_cm_touchingeyelashes@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf27861a9edc897d0970c6_cm_touchingeyelashes%402x.png), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png);
     background-position: 100% 0, 100% 0
 }
 
@@ -3933,7 +3942,7 @@ figcaption {
     width: 50%;
     margin-top: 0;
     background-color: #f8f8f8;
-    background-image: url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addb4dafcceb9241ad1beec_gray-frames%402x.png);
     background-position: 100% 0;
     background-size: contain
 }
@@ -3949,7 +3958,7 @@ figcaption {
     bottom: -47px;
     width: 100%;
     margin-top: -46px;
-    background-image: url(img/5acd0e4d6634d2170d4d11c3_glasses_active@2x.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5acd0e4d6634d2170d4d11c3_glasses_active%402x.jpg);
     background-size: 55vw
 }
 
@@ -4055,7 +4064,7 @@ figcaption {
 .frame {
     overflow: hidden;
     height: 157px;
-    background-image: url(img/5af23f1c461aed90dcd5ad4a_DSCF2710 copy.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5af23f1c461aed90dcd5ad4a_DSCF2710%20copy.jpg);
     overflow: hidden;
     height: 157px;
     background-position: center;
@@ -4078,12 +4087,12 @@ figcaption {
 
 .frame.fr1 {
     height: 157px;
-    background-image: url(img/5ac679df61777f83388c240a_IMG_9627@2x.jpg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac679df61777f83388c240a_IMG_9627%402x.jpg)
 }
 
 .frame.fr3 {
     overflow: visible;
-    background-image: url(img/5ac679df0ed0ad83684f9b1b_Bitmap@2x.jpg)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac679df0ed0ad83684f9b1b_Bitmap%402x.jpg)
 }
 
 .image-3 {
@@ -4199,7 +4208,7 @@ figcaption {
 
 .galery-block.c3 {
     width: 19%;
-    background-image: url(img/5ac4d1b66484cf4c383eb17c_v2@2x.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b66484cf4c383eb17c_v2%402x.jpg);
     background-position: 50% 50%;
     background-size: cover
 }
@@ -4210,20 +4219,20 @@ figcaption {
 
 .galery-block.c3.last.bis {
     background-color: #f8f8f8;
-    background-image: url(img/5ac4d1b6bbe2f55fedd2c504_v8@2x.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b6bbe2f55fedd2c504_v8%402x.jpg);
     background-position: 0 0;
     background-size: 212px
 }
 
 .galery-block.c4 {
     width: 26%;
-    background-image: url(img/5ac4d1b6485eed61bc784996_v5@2x.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b6485eed61bc784996_v5%402x.jpg);
     background-position: 50% 50%;
     background-size: contain
 }
 
 .galery-block.c4.bis {
-    background-image: url(img/5ac4d1b60012b0314d784590_v7@2x.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b60012b0314d784590_v7%402x.jpg);
     background-size: 288px
 }
 
@@ -4234,20 +4243,20 @@ figcaption {
 .galery-block.c2.last {
     width: 11%;
     margin-right: 0;
-    background-image: url(img/5ac4d1b6c3ce7d2f36d12a07_v4@2x.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b6c3ce7d2f36d12a07_v4%402x.jpg);
     background-position: 50% 50%;
     background-size: contain
 }
 
 .galery-block.c5 {
     width: 33%;
-    background-image: url(img/5ac4d1b6b50fc96186e678ab_v3@2x.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b6b50fc96186e678ab_v3%402x.jpg);
     background-position: 100% 50%;
     background-size: cover
 }
 
 .galery-block.c5.bis {
-    background-image: url(img/5ac4d1b60012b0087e784591_v6@2x.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b60012b0087e784591_v6%402x.jpg);
     background-position: 0 50%;
     background-size: 364px
 }
@@ -4261,14 +4270,14 @@ figcaption {
 
 .galery-block.c0 {
     position: relative;
-    background-image: url(img/5ac4d1b6485eed858a784997_v1@2x.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b6485eed858a784997_v1%402x.jpg);
     background-size: cover
 }
 
 .div-block-5,
 .div-block-7,
 .div-block-7.shifted {
-    background-image: url(img/5ac357690f608c6c1f84b0d6_pat-Artboard 1-8.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac357690f608c6c1f84b0d6_pat-Artboard%201-8.png)
 }
 
 .floating-image-4 {
@@ -4483,7 +4492,7 @@ figcaption {
 }
 
 .logo-container.l5 {
-    background-image: url(img/5ac4d8dfc3ce7d1880d131fd_sv@2x.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d8dfc3ce7d1880d131fd_sv%402x.png)
 }
 
 .logo-container.l6 {
@@ -4788,7 +4797,7 @@ figcaption {
     height: 14px;
     margin-right: 4px;
     border-radius: 10px;
-    background-image: url(img/example-bg.png);
+    background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png);
     background-position: 50% 50%;
     background-size: 24px
 }
@@ -5012,7 +5021,7 @@ figcaption {
     height: 200px;
     margin-left: 16px;
     background-color: #d8dde5;
-    background-image: url(img/5ac681d1374d64a9409f2771_rachel_app.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac681d1374d64a9409f2771_rachel_app.jpg);
     background-position: 0 0;
     background-size: cover
 }
@@ -5027,7 +5036,7 @@ figcaption {
     top: 0;
     right: 0;
     margin-right: 15px;
-    background-image: url(img/5ac357690f608c6c1f84b0d6_pat-Artboard 1-8.png)
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac357690f608c6c1f84b0d6_pat-Artboard%201-8.png)
 }
 
 .floating-secondary-image.inverse {
@@ -5203,7 +5212,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url(img/5ac64e5878b77ea6892c0f5d_ico-Artboard 1.svg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac64e5878b77ea6892c0f5d_ico-Artboard%201.svg);
     background-size: 50px
 }
 
@@ -5225,7 +5234,7 @@ figcaption {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    background-image: url(img/5ac64f000ed0ad9c844f4a25_Oval 2@2x.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac64f000ed0ad9c844f4a25_Oval%202%402x.png);
     background-position: 0 50%;
     background-size: 32px
 }
@@ -5310,7 +5319,7 @@ figcaption {
     border: 2px solid #222;
     border-radius: 6px;
     background-color: hsla(0, 0%, 100%, .61);
-    background-image: url(img/5ac27ae3d8220580eba9a4d7_logo apple.svg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d8220580eba9a4d7_logo%20apple.svg);
     background-position: 15px 43%;
     background-size: 20px;
     font-family: 'Intelligent design averta', Arial, sans-serif;
@@ -5393,7 +5402,7 @@ figcaption {
 }
 
 .exception {
-    background-image: url(img/example-bg.png);
+    background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png);
     background-position: 100% 0;
     background-size: 55vw
 }
@@ -5478,7 +5487,7 @@ figcaption {
 
 .your-needs-tab-pane {
     position: static;
-    background-image: url(img/5ac27ae3d82205ebe8a9a4d9_final delivery.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205ebe8a9a4d9_final%20delivery.jpg);
     background-position: 27% 0
 }
 
@@ -5547,7 +5556,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url(img/5b04630e1546742e462b40f3_Ask_An_Eyewear_Expert_Slice_06.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b04630e1546742e462b40f3_Ask_An_Eyewear_Expert_Slice_06.png);
     background-position: 0 0;
     background-size: contain
 }
@@ -5556,13 +5565,13 @@ figcaption {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-image: url(img/5adf564f797d077dcb5a4bb4_TashaVanZandt-Topology-Lifestyle-3347.jpg), url(img/5addf2d5bba78111f1e5384d_patt-hero4-all-gray.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf564f797d077dcb5a4bb4_TashaVanZandt-Topology-Lifestyle-3347.jpg), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf2d5bba78111f1e5384d_patt-hero4-all-gray.png);
     background-position: 50% 50%, 0 0;
     background-size: cover, 300px
 }
 
 .static-hero.parker {
-    background-image: url(img/5adf37bc33ae845e39fd41c2_w1200_3648_Parker-Union-Smoke.jpg), url(img/5addf2d5bba78111f1e5384d_patt-hero4-all-gray.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf37bc33ae845e39fd41c2_w1200_3648_Parker-Union-Smoke.jpg), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf2d5bba78111f1e5384d_patt-hero4-all-gray.png);
     background-position: 0 0, 0 0;
     background-size: cover, 300px
 }
@@ -5579,22 +5588,28 @@ figcaption {
 }
 
 .static-hero.ashley-2 {
-    background-image: url(img/5adf564fe5bf33d0a2d74421_TashaVanZandt-Topology-Lifestyle-6199.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf564fe5bf33d0a2d74421_TashaVanZandt-Topology-Lifestyle-6199.jpg);
     background-size: cover
 }
 
 .static-hero.man-2 {
-    background-image: url(img/5adf564fac1ddc783e84910a_TashaVanZandt-Topology-Lifestyle-2-22.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf564fac1ddc783e84910a_TashaVanZandt-Topology-Lifestyle-2-22.jpg);
     background-size: cover
 }
 
 .static-hero.gifting {
-    background-image: url(img/5ae07456ef56a574862701d2_TashaVanZandt-Topology-Lifestyle-2-14.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ae07456ef56a574862701d2_TashaVanZandt-Topology-Lifestyle-2-14.jpg);
     background-position: 0 -48px;
     background-size: cover
 }
 
-
+.static-hero.press {
+    height: 800px;
+    padding-bottom: 120px;
+    background-image: url("https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ae082b000595fffa09e7ed3_TashaVanZandt-Topology-Lifestyle-0334-2-(1).jpg");
+    background-position: 100% -105px;
+    background-size: cover
+}
 
 .static-container {
     display: block;
@@ -5612,7 +5627,7 @@ figcaption {
 .static-container.grayed {
     padding: 60px 40px;
     background-color: #f8f8f8;
-    background-image: url(img/5b04630e1546742e462b40f3_Ask_An_Eyewear_Expert_Slice_06.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b04630e1546742e462b40f3_Ask_An_Eyewear_Expert_Slice_06.png);
     background-position: 50% 50%;
     background-size: auto 500px
 }
@@ -5668,7 +5683,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url(img/5addf563bba7814cb7e53c82_gradient.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf563bba7814cb7e53c82_gradient.png);
     background-position: 0 0;
     background-size: cover
 }
@@ -5999,7 +6014,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
     border: 2px solid #222;
     border-radius: 6px;
     background-color: hsla(0, 0%, 100%, .61);
-    background-image: url(img/5ac27ae3d8220580eba9a4d7_logo apple.svg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d8220580eba9a4d7_logo%20apple.svg);
     background-position: 15px 43%;
     background-size: 20px;
     color: #222;
@@ -6554,7 +6569,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
 .split-up-section-cell {
     width: 50%;
     min-height: 100px;
-    background-image: url(img/5af34894aa65182a82b7c4cc_20748324_1252667481505626_3256624950054927528_o-1.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5af34894aa65182a82b7c4cc_20748324_1252667481505626_3256624950054927528_o-1.jpg);
     background-position: 66% 50%
 }
 
@@ -6786,7 +6801,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
 .header {
     width: 100%;
     height: 100%;
-    background-image: url(img/example-bg.png);
+    background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png);
     background-position: 50% 50%
 }
 
@@ -6800,8 +6815,8 @@ html.w-mod-js [data-ix=fade-in-on-load] {
 .header-container {
     width: 100%;
     height: 230px;
-    background-image: -webkit-linear-gradient(270deg, rgba(134, 120, 255, .1), rgba(134, 120, 255, .1)), url(img/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png);
-    background-image: linear-gradient(180deg, rgba(134, 120, 255, .1), rgba(134, 120, 255, .1)), url(img/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png)
+    background-image: -webkit-linear-gradient(270deg, rgba(134, 120, 255, .1), rgba(134, 120, 255, .1)), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png);
+    background-image: linear-gradient(180deg, rgba(134, 120, 255, .1), rgba(134, 120, 255, .1)), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png)
 }
 
 .collection-list-2 {
@@ -6881,8 +6896,8 @@ html.w-mod-js [data-ix=fade-in-on-load] {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 40px;
-    background-image: -webkit-linear-gradient(270deg, rgba(102, 85, 255, .04), rgba(102, 85, 255, .04)), url(img/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png);
-    background-image: linear-gradient(180deg, rgba(102, 85, 255, .04), rgba(102, 85, 255, .04)), url(img/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png)
+    background-image: -webkit-linear-gradient(270deg, rgba(102, 85, 255, .04), rgba(102, 85, 255, .04)), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png);
+    background-image: linear-gradient(180deg, rgba(102, 85, 255, .04), rgba(102, 85, 255, .04)), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png)
 }
 
 .cms-rtf h2 {
@@ -6974,8 +6989,8 @@ html.w-mod-js [data-ix=fade-in-on-load] {
 .cms-rtf-teaser figure {
     margin-top: 20px;
     margin-bottom: 20px;
-    background-image: -webkit-linear-gradient(270deg, rgba(102, 85, 255, .03), rgba(102, 85, 255, .03)), url(img/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png);
-    background-image: linear-gradient(180deg, rgba(102, 85, 255, .03), rgba(102, 85, 255, .03)), url(img/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png)
+    background-image: -webkit-linear-gradient(270deg, rgba(102, 85, 255, .03), rgba(102, 85, 255, .03)), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png);
+    background-image: linear-gradient(180deg, rgba(102, 85, 255, .03), rgba(102, 85, 255, .03)), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf2d6bba7816261e5384e_patt-hero3-light-purple.png)
 }
 
 .container-5,
@@ -7166,7 +7181,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url(img/5b04630e1546742e462b40f3_Ask_An_Eyewear_Expert_Slice_06.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b04630e1546742e462b40f3_Ask_An_Eyewear_Expert_Slice_06.png);
     background-position: 0 0;
     background-size: contain
 }
@@ -7175,34 +7190,58 @@ html.w-mod-js [data-ix=fade-in-on-load] {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-image: url(img/5adf564f797d077dcb5a4bb4_TashaVanZandt-Topology-Lifestyle-3347.jpg), url(img/5addf2d5bba78111f1e5384d_patt-hero4-all-gray.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf564f797d077dcb5a4bb4_TashaVanZandt-Topology-Lifestyle-3347.jpg), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf2d5bba78111f1e5384d_patt-hero4-all-gray.png);
     background-position: 50% 50%, 0 0;
     background-size: cover, 300px
 }
 
 .static-hero-2.parker {
-    background-image: url(img/5adf37bc33ae845e39fd41c2_w1200_3648_Parker-Union-Smoke.jpg), url(img/5addf2d5bba78111f1e5384d_patt-hero4-all-gray.png);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf37bc33ae845e39fd41c2_w1200_3648_Parker-Union-Smoke.jpg), url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5addf2d5bba78111f1e5384d_patt-hero4-all-gray.png);
     background-position: 0 0, 0 0;
     background-size: cover, 300px
 }
 
+.static-hero-2.layout-2 {
+    height: 500px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-image: url("https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b046da2129b9538c092a67e_header-image%20(1).png");
+    background-position: 50% 50%;
+    background-size: contain
+}
 
 .static-hero-2.ashley-2 {
-    background-image: url(img/5adf564fe5bf33d0a2d74421_TashaVanZandt-Topology-Lifestyle-6199.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf564fe5bf33d0a2d74421_TashaVanZandt-Topology-Lifestyle-6199.jpg);
     background-size: cover
 }
 
 .static-hero-2.man-2 {
-    background-image: url(img/5adf564fac1ddc783e84910a_TashaVanZandt-Topology-Lifestyle-2-22.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5adf564fac1ddc783e84910a_TashaVanZandt-Topology-Lifestyle-2-22.jpg);
     background-size: cover
 }
 
 .static-hero-2.gifting {
-    background-image: url(img/5ae07456ef56a574862701d2_TashaVanZandt-Topology-Lifestyle-2-14.jpg);
+    background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ae07456ef56a574862701d2_TashaVanZandt-Topology-Lifestyle-2-14.jpg);
     background-position: 0 -48px;
     background-size: cover
 }
 
+.static-hero-2.press {
+    height: 800px;
+    padding-bottom: 120px;
+    background-image: url("https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ae082b000595fffa09e7ed3_TashaVanZandt-Topology-Lifestyle-0334-2-(1).jpg");
+    background-position: 100% -105px;
+    background-size: cover
+}
+
+.static-hero-2.layout-3 {
+    height: 500px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-image: url("https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b05a0d4f77f47121a6577ef_IMG_0661%20copy%20(1).png");
+    background-position: 50% -25px;
+    background-size: cover
+}
 
 .link-block-5 {
     display: -webkit-box;
@@ -7392,7 +7431,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
     }
     .section.lined.promise {
         padding-top: 32px;
-        background-image: url(img/5ac27ae3d82205387ca9a4f3_sec-hero.jpg);
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205387ca9a4f3_sec-hero.jpg);
         background-position: 62% 100%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -8476,7 +8515,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         height: 660px;
         padding-top: 20px;
         background-color: #fafafa;
-        background-image: url(img/5ac27ae3d82205387ca9a4f3_sec-hero.jpg);
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205387ca9a4f3_sec-hero.jpg);
         background-position: 68% 131%;
         background-size: 960px;
         background-repeat: no-repeat;
@@ -9095,7 +9134,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         display: -ms-flexbox
     }
     .section.footer.assessment-page.web-experiment {
-        background-image: url(img/5b1ea2f6e0c922a085eeb27c_CTA PANEL_2.jpg);
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5b1ea2f6e0c922a085eeb27c_CTA%20PANEL_2.jpg);
         background-position: 0 100%;
         background-size: cover;
         background-repeat: repeat;
@@ -9865,13 +9904,13 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         font-size: 6px
     }
     .slide-3 {
-        background-image: url(img/5ac4d1b6485eed858a784997_v1@2x.jpg)
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b6485eed858a784997_v1%402x.jpg)
     }
     .slide-3.bg3 {
         background-color: #fff
     }
     .slide-4 {
-        background-image: url(img/5ac4d1b66484cf4c383eb17c_v2@2x.jpg);
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b66484cf4c383eb17c_v2%402x.jpg);
         background-position: 50% 50%;
         background-size: cover;
         background-repeat: no-repeat
@@ -9884,13 +9923,13 @@ html.w-mod-js [data-ix=fade-in-on-load] {
     }
     .slide-5 {
         background-color: #f7f5f8;
-        background-image: url(img/5ac4d1b6b50fc96186e678ab_v3@2x.jpg)
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b6b50fc96186e678ab_v3%402x.jpg)
     }
     .slide-6 {
-        background-image: url(img/5ac4d1b6485eed61bc784996_v5@2x.jpg)
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b6485eed61bc784996_v5%402x.jpg)
     }
     .slide-7 {
-        background-image: url(img/5ac4d1b6c3ce7d2f36d12a07_v4@2x.jpg);
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b6c3ce7d2f36d12a07_v4%402x.jpg);
         background-position: 50% 50%;
         background-size: cover;
         background-repeat: no-repeat
@@ -9902,7 +9941,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         background-repeat: no-repeat
     }
     .slide-8 {
-        background-image: url(img/5ac4d1b60012b0314d784590_v7@2x.jpg);
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b60012b0314d784590_v7%402x.jpg);
         background-position: 50% 50%
     }
     .content-page-heading {
@@ -9972,11 +10011,11 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         -webkit-box-direction: normal
     }
     .slide-9 {
-        background-image: url(img/5ac4d1b60012b0087e784591_v6@2x.jpg);
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b60012b0087e784591_v6%402x.jpg);
         background-position: 50% 50%
     }
     .slide-10 {
-        background-image: url(img/5ac4d1b6bbe2f55fedd2c504_v8@2x.jpg);
+        background-image: url(https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac4d1b6bbe2f55fedd2c504_v8%402x.jpg);
         background-position: 100% 50%
     }
     .section-3 {
@@ -10348,63 +10387,63 @@ html.w-mod-js [data-ix=fade-in-on-load] {
 
 @font-face {
     font-family: 'Tiemposheadlineweb';
-    src: url('img/5ac27ae3d822056485a9a4c5_TiemposHeadlineWeb-Regular.woff') format('woff');
+    src: url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822056485a9a4c5_TiemposHeadlineWeb-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Tiemposheadlineweb';
-    src: url('img/5ac27ae3d82205a3bba9a4ca_TiemposHeadlineWeb-Semibold.woff') format('woff');
+    src: url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205a3bba9a4ca_TiemposHeadlineWeb-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Intelligent design averta';
-    src: url('img/5ac27ae3d822054c9ea9a4cc_Intelligent Design - Averta Black.otf') format('opentype');
+    src: url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822054c9ea9a4cc_Intelligent%20Design%20-%20Averta%20Black.otf') format('opentype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Intelligent design averta';
-    src: url('img/5ac27ae3d822050621a9a4cd_Intelligent Design - Averta-Bold.otf') format('opentype'), url('img/5ac27ae3d82205311ea9a4ce_Intelligent Design - Averta-ExtraBold.otf') format('opentype');
+    src: url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822050621a9a4cd_Intelligent%20Design%20-%20Averta-Bold.otf') format('opentype'), url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205311ea9a4ce_Intelligent%20Design%20-%20Averta-ExtraBold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Intelligent design averta';
-    src: url('img/5ac27ae3d82205be6da9a4cf_Intelligent Design - Averta-Extrathin.otf') format('opentype'), url('img/5ac27ae3d8220560a4a9a4d3_Intelligent Design - Averta-Thin.otf') format('opentype');
+    src: url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205be6da9a4cf_Intelligent%20Design%20-%20Averta-Extrathin.otf') format('opentype'), url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d8220560a4a9a4d3_Intelligent%20Design%20-%20Averta-Thin.otf') format('opentype');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Intelligent design averta';
-    src: url('img/5ac27ae3d822057d52a9a4d0_Intelligent Design - Averta-Regular.otf') format('opentype');
+    src: url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822057d52a9a4d0_Intelligent%20Design%20-%20Averta-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Intelligent design averta';
-    src: url('img/5ac27ae3d822051d2da9a4d2_Intelligent Design - Averta-Semibold.otf') format('opentype');
+    src: url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822051d2da9a4d2_Intelligent%20Design%20-%20Averta-Semibold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Intelligent design averta';
-    src: url('img/5ac27ae3d82205502ca9a4d1_Intelligent Design - Averta-Light.otf') format('opentype');
+    src: url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205502ca9a4d1_Intelligent%20Design%20-%20Averta-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Intelligent design averta';
-    src: url('img/5ac67f37ac26cb839eaaa0ab_Intelligent Design - Averta-RegularItalic.otf') format('opentype');
+    src: url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac67f37ac26cb839eaaa0ab_Intelligent%20Design%20-%20Averta-RegularItalic.otf') format('opentype');
     font-weight: 400;
     font-style: italic;
 }
@@ -10733,6 +10772,8 @@ a:hover{color:#000;text-decoration:underline;}
 /* @font-face{font-family:'webflow-icons';src:url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg6SAy0AAAC8AAAAYGNtYXAaVcxaAAABHAAAAExnYXNwAAAAEAAAAWgAAAAIZ2x5ZgscV1gAAAFwAAABhGhlYWQCkFKvAAAC9AAAADZoaGVhB0MDyQAAAywAAAAkaG10eBIAA10AAANQAAAAIGxvY2EBMADyAAADcAAAABJtYXhwAAwATQAAA4QAAAAgbmFtZWTuiIAAAAOkAAABe3Bvc3QAAwAAAAAFIAAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADmAwPA/8D/wAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADgAAAAKAAgAAgACAAEAIOYD//3//wAAAAAAIOYA//3//wAB/+MaBAADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQEgAAADIAOAAAUAAAkBBwkBFwMg/kBAAYD+gEABwAHAQP6A/oBAAAEA4AAAAuADgAAFAAATARcJAQfgAcBA/oABgEABwAHAQP6A/oBAAAADAMAA4ANAAsAAGAAxAEoAAAEhIg4CHQEUHgIzITI+Aj0BNC4CIxUhIg4CHQEUHgIzITI+Aj0BNC4CIxUhIg4CHQEUHgIzITI+Aj0BNC4CIwMg/cAHCwkFBQkLBwJABwsJBQUJCwf9wAcLCQUFCQsHAkAHCwkFBQkLB/3ABwsJBQUJCwcCQAcLCQUFCQsHAsAFCQsHIAcLCQUFCQsHIAcLCQXABQkLByAHCwkFBQkLByAHCwkFwAUJCwcgBwsJBQUJCwcgBwsJBQAAAAABAJ0AtAOBApUABQAACQIHCQEDJP7r/upcAXEBcgKU/usBFFv+egGGAAAAAAEAAAABAADSLAJOXw889QALBAAAAAAAz/iHGQAAAADP+IcZAAAAAAOBA4AAAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAAAAA4EAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAABAABIAQAAOAEAADABAAAnQAAAAAACgAUAB4AMgBGAKwAwgAAAAEAAAAIAEsAAwAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQAaAAAAAQAAAAAAAgAOAHEAAQAAAAAAAwAaADAAAQAAAAAABAAaAH8AAQAAAAAABQAWABoAAQAAAAAABgANAEoAAQAAAAAACgA0AJkAAwABBAkAAQAaAAAAAwABBAkAAgAOAHEAAwABBAkAAwAaADAAAwABBAkABAAaAH8AAwABBAkABQAWABoAAwABBAkABgAaAFcAAwABBAkACgA0AJkAdwBlAGIAZgBsAG8AdwAtAGkAYwBvAG4AcwBWAGUAcgBzAGkAbwBuACAAMQAuADAAdwBlAGIAZgBsAG8AdwAtAGkAYwBvAG4Ac3dlYmZsb3ctaWNvbnMAdwBlAGIAZgBsAG8AdwAtAGkAYwBvAG4AcwBSAGUAZwB1AGwAYQByAHcAZQBiAGYAbABvAHcALQBpAGMAbwBuAHMARgBvAG4AdAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAuAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format('truetype'),url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAAVcAAoAAAAABRQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAAA9AAAAZMAAAGTuzUomU9TLzIAAAKIAAAAYAAAAGAOkgMtY21hcAAAAugAAABMAAAATBpVzFpnYXNwAAADNAAAAAgAAAAIAAAAEGhlYWQAAAM8AAAANgAAADYCkFKvaGhlYQAAA3QAAAAkAAAAJAdDA8lobXR4AAADmAAAACAAAAAgEgADXW1heHAAAAO4AAAABgAAAAYACFAAbmFtZQAAA8AAAAF7AAABe2TuiIBwb3N0AAAFPAAAACAAAAAgAAMAAAEABAQAAQEBDndlYmZsb3ctaWNvbnMAAQIAAQA6+BwC+BsD+BgEHgoACXf/i4seCgAJd/+LiwwHi0v6lPpUBR0AAACaDx0AAACfER0AAAAJHQAAAYoSAAkBAQ4bHR8iJywxNndlYmZsb3ctaWNvbnN3ZWJmbG93LWljb25zdTB1MXUyMHVFNjAwdUU2MDF1RTYwMnVFNjAzAAACAYkABgAIAQEEBwoNJDvH4P6UDv6UDv6UDvyUDvm0+FQV/FT4VEtL+BT8FPwU/BTLSwUO93T4VBX4VPhUy0v8FPwU+BT8FEtLBQ75tPlUFfzUiwV5i319i3kIi2sFi3mZfZ2LCPjUiwWdi5mZi50Ii6sFi519mXmLCIv7VBX81IsFeYt9fYt5CItrBYt5mX2diwj41IsFnYuZmYudCIurBYudfZl5iwiL+1QV/NSLBXmLfX2LeQiLawWLeZl9nYsI+NSLBZ2LmZmLnQiLqwWLnX2ZeYsIDvm4+SkV+6n7qvuq96ovLvgG/Bj4BvgYBQ76lBT6lBWLDAoAAAMEAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAA5gMDwP/A/8ADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAA4AAAACgAIAAIAAgABACDmA//9//8AAAAAACDmAP/9//8AAf/jGgQAAwABAAAAAAAAAAAAAAABAAH//wAPAAEAAAABAAC1pQTjXw889QALBAAAAAAAz/iHGQAAAADP+IcZAAAAAAOBA4AAAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAAAAA4EAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAABAABIAQAAOAEAADABAAAnQAAUAAACAAAAAAADgCuAAEAAAAAAAEAGgAAAAEAAAAAAAIADgBxAAEAAAAAAAMAGgAwAAEAAAAAAAQAGgB/AAEAAAAAAAUAFgAaAAEAAAAAAAYADQBKAAEAAAAAAAoANACZAAMAAQQJAAEAGgAAAAMAAQQJAAIADgBxAAMAAQQJAAMAGgAwAAMAAQQJAAQAGgB/AAMAAQQJAAUAFgAaAAMAAQQJAAYAGgBXAAMAAQQJAAoANACZAHcAZQBiAGYAbABvAHcALQBpAGMAbwBuAHMAVgBlAHIAcwBpAG8AbgAgADEALgAwAHcAZQBiAGYAbABvAHcALQBpAGMAbwBuAHN3ZWJmbG93LWljb25zAHcAZQBiAGYAbABvAHcALQBpAGMAbwBuAHMAUgBlAGcAdQBsAGEAcgB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzAEYAbwBuAHQAIABnAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4ALgAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format('woff');font-weight:normal;font-style:normal;}
 @font-face{font-family:'Fontawesome webfont';src:url(https://daks2k3a4ib2z.cloudfront.net/571cab5c86c1049c4c0e7047/5724c709138ce8c85240a6ba_fontawesome-webfont.ttf) format('truetype');font-weight:400;font-style:normal;} */
 
+/*! CSS Used from: https://uploads-ssl.webflow.com/59c235a00661f20001e396a3/css/uno-template.webflow.8464fe062.css */
+
 a {
     background-color: transparent;
 }
@@ -11041,7 +11082,7 @@ img {
 }
 
 .heart-icon {
-    background-image: url(img/59c63e55bcfa480001e405c1_heart-icon.png);
+    background-image: url(http://uploads.webflow.com/59c235a00661f20001e396a3/59c63e55bcfa480001e405c1_heart-icon.png);
     background-position: 50% 50%;
     background-size: 11px;
     background-repeat: no-repeat;
@@ -11340,7 +11381,7 @@ a.w-list-unstyled {
 
 /*end sessao de barra superior */
 
-/*! CSS Used from: https://daks2k3a4ib2z.cloudfront.net/img/css/maven-template.webflow.2a71ef012.css */
+/*! CSS Used from: https://daks2k3a4ib2z.cloudfront.net/58f556b54513f478483fb655/css/maven-template.webflow.2a71ef012.css */
 
 .w-inline-block {
     max-width: 100%;
@@ -11525,7 +11566,7 @@ img {
         margin-bottom: 50px !important;
     }
     #showcase {
-        background-image: url(img/perto-longe-blur.jpg);
+        background-image: url(https://www.varilux.com.br/wp-content/themes/varilux/assets/img/perto-longe-blur.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center bottom;
@@ -11557,11 +11598,11 @@ img {
         top: 20%;
     }
     #showcase .sharped-bg {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(img/perto-longe.jpg);
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(https://www.varilux.com.br/wp-content/themes/varilux/assets/img/perto-longe.jpg);
         z-index: 99999;
     }
     #showcase .drag-button {
-        background-image: url(img/icone-drag.png);
+        background-image: url(https://www.varilux.com.br/wp-content/themes/varilux/assets/img/icone-drag.png);
         background-repeat: no-repeat;
         background-size: 95%;
         background-position: center;
@@ -11578,7 +11619,6 @@ img {
     #showcase .drag-button.pulse {
         animation: pulse 2s infinite;
         filter: hue-rotate(50deg);
-        z-index: 9;
     }
     #variations-carousel {
         width: 100%;
@@ -11615,27 +11655,27 @@ img {
     }
     .lens.left-lens {
         right: 52%;
-        -webkit-mask: url(img/lente-formato.svg) no-repeat 0 50%/auto 100%;
-        mask: url(img/lente-formato.svg) no-repeat 0 50%/auto 100%;
+        -webkit-mask: url(https://www.varilux.com.br/wp-content/themes/varilux/assets/img/lente-formato.svg) no-repeat 0 50%/auto 100%;
+        mask: url(https://www.varilux.com.br/wp-content/themes/varilux/assets/img/lente-formato.svg) no-repeat 0 50%/auto 100%;
     }
     .lens.left-lens:after {
         content: '';
         display: block;
         width: 100%;
         height: 100%;
-        background: url(img/lente-esquerda.png) no-repeat 100% center;
+        background: url(https://www.varilux.com.br/wp-content/themes/varilux/assets/img/lente-esquerda.png) no-repeat 100% center;
     }
     .lens.right-lens {
         left: 52%;
-        -webkit-mask: url(img/lente-formato.svg) no-repeat 100% 50%/auto 100%;
-        mask: url(img/lente-formato.svg) no-repeat 100% 50%/auto 100%;
+        -webkit-mask: url(https://www.varilux.com.br/wp-content/themes/varilux/assets/img/lente-formato.svg) no-repeat 100% 50%/auto 100%;
+        mask: url(https://www.varilux.com.br/wp-content/themes/varilux/assets/img/lente-formato.svg) no-repeat 100% 50%/auto 100%;
     }
     .lens.right-lens:after {
         content: '';
         display: block;
         width: 100%;
         height: 100%;
-        background: url(img/lente-direita.png) no-repeat 100% center;
+        background: url(https://www.varilux.com.br/wp-content/themes/varilux/assets/img/lente-direita.png) no-repeat 100% center;
     }
     .sharped-bg {
         background-repeat: no-repeat;
@@ -11848,8 +11888,8 @@ h5 {
 .image-section.testimonials-section {
     padding-top: 110px;
     padding-bottom: 110px;
-    background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url("img/59a5203a275ea20001337135_jeshoots-com-219386.jpg");
-    background-image: linear-gradient(180deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url("img/59a5203a275ea20001337135_jeshoots-com-219386.jpg");
+    background-image: -webkit-linear-gradient(270deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url("http://uploads.webflow.com/59a3ba84fdd0390001e12581/59a5203a275ea20001337135_jeshoots-com-219386.jpg");
+    background-image: linear-gradient(180deg, rgba(34, 71, 101, .65), rgba(34, 71, 101, .65)), url("http://uploads.webflow.com/59a3ba84fdd0390001e12581/59a5203a275ea20001337135_jeshoots-com-219386.jpg");
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
@@ -12292,6 +12332,7 @@ svg {
     }
 }
 
+/*! CSS Used from: https://newkajabi.com/stylesheets/all.css */
 
 
 ::-webkit-input-placeholder {
@@ -12326,7 +12367,7 @@ svg {
     width: 2560px;
     height: 240px;
     margin-left: -1280px;
-    background-image: url("img/big_hero_ornament_01-deb71018.svg");
+    background-image: url("https://newkajabi.com/images/shared/big_hero/big_hero_ornament_01-deb71018.svg");
 }
 
 @media (max-width: 767px) {
