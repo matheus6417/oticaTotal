@@ -11241,7 +11241,7 @@ img {
 }
 
 .logo-wrapper img {
-    max-height: 45px;
+    max-height: 50px;
     max-width: 130px;
 }
 
@@ -12332,3 +12332,6 @@ svg {
 .vertical-scroll-footer.w-inline-block {
     filter: invert(1);
 }
+/*! CSS Used from: http://zephir.io/dist/styles/style.min.css */
+i{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline;}
+.features__messenger-icon{content:url(img/messenger.svg);height:1.75rem;margin-right:.75rem;}
