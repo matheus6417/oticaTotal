@@ -1,4 +1,4 @@
-﻿b,
+b,
 h1,
 h2,
 h3,
@@ -2246,7 +2246,7 @@ figcaption {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 ._1200-container.light.how,
@@ -2477,8 +2477,8 @@ figcaption {
 }
 
 .frame img {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
     max-width: 400px;
 }
 
@@ -3682,7 +3682,7 @@ figcaption {
     -ms-flex-align: end;
     align-items: flex-end;
     background-color: #f8f8f8;
-    background-image: url(img/5acd0e4d8bad9956a2c7a179_cm_touchingeyelashes@2x.jpg), url(img/5acd0e4d6634d2170d4d11c3_glasses_active@2x.jpg);
+    background-image: url(img/5adf27861a9edc897d0970c6_cm_touchingeyelashes@2x.png), url(img/5acd0e4d6634d2170d4d11c3_glasses_active@2x.jpg);
     background-size: contain, contain
 }
 
@@ -3895,7 +3895,7 @@ figcaption {
 }
 
 .pane-content.eyelashes {
-    background-image: url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png);
+    background-image: url(img/5adf27861a9edc897d0970c6_cm_touchingeyelashes@2x.png), url(img/5addb4dafcceb9241ad1beec_gray-frames@2x.png);
     background-position: 100% 0, 100% 0
 }
 
@@ -4033,15 +4033,14 @@ figcaption {
     width: 288px;
     min-height: 45px;
     margin-right: 8px;
-    margin-left: 8px
+    margin-left: 8px;
+    height: a;
 }
 
 .frame {
     overflow: hidden;
-    height: 157px;
     background-image: url(img/5af23f1c461aed90dcd5ad4a_DSCF2710_copy.jpg);
     overflow: hidden;
-    height: 157px;
     background-position: center;
     box-shadow: 0 30px 48px -1px rgba(0, 0, 0, .09);
     border-radius: 14px;
@@ -4054,7 +4053,7 @@ figcaption {
 }
 
 .benefits .frame:hover {
-    box-shadow: 0 30px 48px -1px rgba(0, 0, 0, .09);
+    box-shadow: -1px 8px 48px -1px rgba(0, 0, 0, .09);
     border: solid 1px rgba(128, 128, 128, 0.05);
     border-color: transparent;
 }
@@ -11685,7 +11684,6 @@ h5 {
 }
 
 .testimonials {
-    height: auto;
     padding-right: 136px;
     padding-left: 136px;
     background-color: transparent;
@@ -12128,3 +12126,37 @@ h5 {
     overflow: hidden;
     border-radius: 14px;
   }
+
+
+
+
+
+
+.copy,p{font-family:'Intelligent design averta',Arial,sans-serif;}
+.copy{text-align:left;}
+.copy{-webkit-box-flex:1;}
+.copy{-webkit-flex:1;-ms-flex:1;flex:1;color:#222;font-size:18px;line-height:28px;font-weight:400;}
+.copy.left{color:#222;}
+.flex-box-div{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;}
+.flex-box-div{margin-top:20px;}
+.flex-box-div{display:flex;margin-bottom:20px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}
+.flex-box{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;}
+.image-34{width:30px;height:30px;margin-right:10px;}
+@media (max-width:991px){
+.copy{text-align:left;}
+.copy.left{text-align:left;}
+}
+@media (max-width:479px){
+.copy{color:#000;text-align:left;}
+.copy.left{text-align:left;}
+.flex-box-div{margin-right:auto;}
+.flex-box-div{margin-left:auto;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Intelligent design averta';src:url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822054c9ea9a4cc_Intelligent%20Design%20-%20Averta%20Black.otf') format('opentype');font-weight:900;font-style:normal;}
+@font-face{font-family:'Intelligent design averta';src:url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822050621a9a4cd_Intelligent%20Design%20-%20Averta-Bold.otf') format('opentype'), url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205311ea9a4ce_Intelligent%20Design%20-%20Averta-ExtraBold.otf') format('opentype');font-weight:700;font-style:normal;}
+@font-face{font-family:'Intelligent design averta';src:url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205be6da9a4cf_Intelligent%20Design%20-%20Averta-Extrathin.otf') format('opentype'), url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d8220560a4a9a4d3_Intelligent%20Design%20-%20Averta-Thin.otf') format('opentype');font-weight:100;font-style:normal;}
+@font-face{font-family:'Intelligent design averta';src:url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822057d52a9a4d0_Intelligent%20Design%20-%20Averta-Regular.otf') format('opentype');font-weight:400;font-style:normal;}
+@font-face{font-family:'Intelligent design averta';src:url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d822051d2da9a4d2_Intelligent%20Design%20-%20Averta-Semibold.otf') format('opentype');font-weight:600;font-style:normal;}
+@font-face{font-family:'Intelligent design averta';src:url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac27ae3d82205502ca9a4d1_Intelligent%20Design%20-%20Averta-Light.otf') format('opentype');font-weight:300;font-style:normal;}
+@font-face{font-family:'Intelligent design averta';src:url('https://uploads-ssl.webflow.com/5ac27ae3d8220506a6a9a4c3/5ac67f37ac26cb839eaaa0ab_Intelligent%20Design%20-%20Averta-RegularItalic.otf') format('opentype');font-weight:400;font-style:italic;}

@@ -18,21 +18,6 @@ $(function () {
     
     
     
-    $('.show-phone').on('click', function(e){
-        e.preventDefault();
-        $('.phone-number-footer').toggleClass('open');
-    });
-    
-
-    
-    $(window).scroll(function (e) {
-        winPos = $(window).scrollTop();        
-        // Add remove class to navmenu
-        navMonitor();
-        // scroll progress
-        scrollProgressMonitor();
-        effectLensHome();
-    });
     
     // Add/remove class to navmenu
     winPos = $(window).scrollTop();
