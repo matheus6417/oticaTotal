@@ -3044,7 +3044,16 @@ figcaption {
 .heading-2 {
     text-align: center
 }
+h4.heading-2{
+    margin-bottom: -20px;
+    font-family: 'Intelligent design averta',Arial,sans-serif;
+    color: #9a9a9a;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 
+}
 .copy.semilight.aligned.subtext {
     color: #9a9a9a;
     font-size: 14px;
@@ -11057,10 +11066,9 @@ a.w-list-unstyled {
 }
 
 .meta-list {
-    margin: 0px -10px;
     float: left;
-    font-size: 13px;
-    line-height: 35px;
+    margin:0;
+    line-height: 0px;
 }
 
 .meta-list.right {
@@ -11077,7 +11085,7 @@ a.w-list-unstyled {
 
 .container {
     display: block;
-    max-width: 1120px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 40px;
@@ -11151,7 +11159,7 @@ img {
 }
 
 .social-link {
-    opacity: 0.5;
+    /* opacity: 0.5; */
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
 }
@@ -12198,4 +12206,9 @@ p {
     .flex-box-div {
         margin-left: auto;
     }
+}
+
+.meta span {
+    font-family: 'Intelligent design averta', Arial, sans-serif;
+    font-weight: 600;
 }
