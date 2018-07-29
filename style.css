@@ -2152,6 +2152,10 @@ figcaption {
     color: rgba(0, 0, 0, .5)
 }
 
+
+
+
+
 ._1200-container {
     display: block;
     max-width: 1232px;
@@ -2481,7 +2485,9 @@ figcaption {
     height: auto; */
     max-width: 400px;
 }
-
+.full-width {
+    width: 100%;
+}
 .benefits .div-block-3 {
     min-width: 32%;
 }
