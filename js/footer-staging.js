@@ -4,14 +4,7 @@
     // TODO: Refactor all jQuery objects to be here looked up once (perf. issue)
     var checkBoxContainer = $('#quiz-rx-checkbox-container');
 
-    $('#btn-fit-assessment').on('click', function() {
-      saveFitProblems();
-      window.location = '/quiz?source=home';
-    });
-
-    $('#btn-chat').on('click', function() {
-      window.Intercom('show');
-    });
+   
 
     if (location.pathname === '/') {
       loadFitProblems(homeFitAssessmentTabSelector);
