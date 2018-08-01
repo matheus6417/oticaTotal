@@ -7657,7 +7657,8 @@
       u = !0, v()
     }, c.destroy = g, c
   })
-}, function (t, e, n) {
+}, 
+function (t, e, n) {
   var r = n(1),
     i = n(46);
   r.define("tabs", t.exports = function (t) {

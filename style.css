@@ -11052,35 +11052,6 @@ a.w-list-unstyled {
     }
 }
 
-.meta {
-    border-bottom: 1px solid rgba(0, 0, 0, .09);
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    bottom: auto;
-    width: 100%;
-    z-index: 999999;
-    box-shadow: 0px -10px 20px black;
-}
-
-.meta-list {
-    float: left;
-    margin:0;
-    line-height: 0px;
-}
-
-.meta-list.right {
-    float: right;
-    text-align: right;
-    margin-top: -4px;
-}
-
-.meta-list-item {
-    display: inline-block;
-    margin-right: 10px;
-    margin-left: 10px;
-    font-weight: 300;
-}
 
 .container {
     display: block;
@@ -12201,10 +12172,6 @@ p {
 
 }
 
-.meta span {
-    font-family: 'Intelligent design averta', Arial, sans-serif;
-    font-weight: 600;
-}
 
 
   .w-clearfix .w-list-unstyled:nth-of-type(1) .w-inline-block {

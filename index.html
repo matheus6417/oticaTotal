@@ -16,6 +16,7 @@
         t + "touch")
     }(window, document);
   </script>
+  
   <style>
     a,
     .noflash {
@@ -37,22 +38,27 @@
     }
 
     /*! CSS Used from: Embedded */
+    ::-webkit-scrollbar {
+          display: none;
+        }
 
+        .disabled {
+          pointer-events: none !important;
+          cursor: default !important;
+        }
+
+        .toggle-link {
+          white-space: nowrap;
+          overflow: hidden;
+        }
     a {
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       -moz-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
-    /*! CSS Used from: Embedded */
+ 
 
-    ::-webkit-scrollbar {
-      display: none;
-    }
 
-    .toggle-link {
-      white-space: nowrap;
-      overflow: hidden;
-    }
 
     /*! CSS Used from: style.css */
 
@@ -69,18 +75,13 @@
       vertical-align: baseline;
     }
 
-    a {
-      background-color: transparent;
-    }
-
+ 
     a:active,
     a:hover {
       outline: 0;
     }
 
-    h1 {
-      margin: .67em 0;
-    }
+   
 
     img {
       border: 0;
@@ -141,9 +142,7 @@
       margin-bottom: 10px;
     }
 
-    h1 {
-      margin-top: 20px;
-    }
+ 
 
     ul {
       padding-left: 40px;
@@ -183,29 +182,8 @@
       margin-left: auto;
     }
 
-    .w-tab-link {
-      position: relative;
-    }
-
-    h1 {
-      font-size: 42px;
-      line-height: 56px;
-      margin-bottom: 10px;
-    }
-
-    .w-tab-link {
-      display: inline-block;
-      padding: 9px 30px;
-      text-align: left;
-      cursor: pointer;
-      color: #222;
-      background-color: #ddd;
-    }
-
-    a {
-      text-decoration: underline;
-    }
-
+ 
+  
     @media screen and (max-width: 479px) {
       .w-tab-link {
         display: block;
@@ -280,12 +258,7 @@
       display: -ms-flexbox;
     }
 
-    .section {
-      overflow: hidden;
-      padding-bottom: 80px;
-      border-top: 3px none #9a9a9a;
-      opacity: 1;
-    }
+  
 
     .section.header {
       height: 704px;
@@ -297,20 +270,9 @@
       background-image: url(img/banner-varilux-1920.jpg);
     }
 
-    .button {
-      background-repeat: no-repeat;
-    }
 
-    .floating-cell.h1 {
-      display: flex;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: start;
-      -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-      align-items: flex-start;
-    }
+
+ 
 
     .floating-cell.h1._7col {
       position: relative;
@@ -342,59 +304,14 @@
       min-height: 100px;
     }
 
-    .button.primary {
-      text-align: center;
-    }
-
-    .button {
-      -webkit-box-pack: center;
-    }
+  
 
     .brand {
       width: 212px;
       height: auto;
     }
 
-    .button {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      height: 50px;
-      padding-left: 44px;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-      border: 2px solid #222;
-      border-radius: 6px;
-      background-color: hsla(0, 0%, 100%, .61);
-      background-image: url(img/5ac27ae3d8220580eba9a4d7_logo_apple.svg);
-      background-position: 15px 43%;
-      background-size: 20px;
-      color: #222;
-      line-height: 18px;
-      font-weight: 600;
-    }
 
-    .button.primary {
-      background-image: none;
-    }
-
-    .button.primary {
-      position: static;
-      width: 400px;
-      padding-right: 20px;
-      padding-left: 20px;
-      border-color: #222;
-      background-color: #222;
-      transition: background-color .2s ease, border .2s ease;
-      color: #fff;
-      font-weight: 600;
-    }
 
     .button.primary:hover {
       border-color: #8678ff;
@@ -406,9 +323,7 @@
       padding-top: 12px;
     }
 
-    ._7col {
-      width: 516px;
-    }
+ 
 
     .primary-action {
       display: inline-block;
@@ -420,32 +335,9 @@
       flex: 0 0 auto;
     }
 
-    .toggle-link {
-      font-family: 'Intelligent design averta', Arial, sans-serif;
-    }
+  
 
-    .toggle-link {
-      background-color: #e6e6e6;
-    }
 
-    .toggle-link {
-      display: inline-block;
-      text-decoration: none;
-    }
-
-    .toggle-link {
-      height: auto;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      padding: 12px 20px;
-      border-radius: 25px;
-      -webkit-transition: background-color .2s ease, color .2s ease;
-      transition: background-color .2s ease, color .2s ease;
-      color: #404040;
-      font-size: 18px;
-      line-height: 24px;
-      text-align: center;
-    }
 
     .image-8 {
       margin-bottom: 0;
@@ -464,23 +356,8 @@
       background-repeat: no-repeat;
     }
 
-    .header {
-      width: 100%;
-      height: 100%;
-      background-image: url(img/placeholder-thumb.svg);
-      background-position: 50% 50%;
-    }
 
-    .heading-8 {
-      font-family: 'Intelligent design averta', Arial, sans-serif;
-    }
-
-    .heading-8 {
-      font-size: 30px;
-      line-height: 40px;
-      font-weight: 400;
-    }
-
+  
     @media (max-width: 991px) {
       ._1200-container {
         width: 100%;
@@ -543,13 +420,7 @@
       .section {
         overflow: hidden;
       }
-      .section.header {
-        height: 890px;
-        background-color: #fff;
-        background-position: 82% 100%;
-        background-size: auto 550px;
-        background-repeat: no-repeat;
-      }
+
       .section.header.home {
         display: -webkit-box;
         display: -webkit-flex;
@@ -654,10 +525,7 @@
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
       }
-      .button.primary,
-      .floating-cell.h1._7col {
-        -webkit-box-direction: normal;
-      }
+ 
       ._1200-container.flex {
         padding-right: 20px;
         padding-left: 20px;
@@ -825,8 +693,8 @@
     }
 
     .meta {
+      background-color: rgba(255, 255, 255, 0.9098039215686274);
       border-bottom: 1px solid rgba(0, 0, 0, .09);
-      background-color: #fff;
       position: fixed;
       top: 0;
       bottom: auto;
@@ -853,6 +721,11 @@
       margin-left: 10px;
       font-weight: 300;
     }
+    .meta span {
+    font-family: 'Intelligent design averta', Arial, sans-serif;
+    font-weight: 600;
+}
+
 
     .container {
       display: block;
@@ -1152,22 +1025,6 @@
       }
     }
 
-    ::-webkit-input-placeholder {
-      color: #748493;
-    }
-
-    ::-moz-placeholder {
-      color: #748493;
-    }
-
-    :-ms-input-placeholder {
-      color: #748493;
-    }
-
-    :-moz-placeholder {
-      color: #748493;
-    }
-
     .ornament {
       position: absolute;
       z-index: 0;
@@ -1197,10 +1054,7 @@
       font-family: 'Intelligent design averta', Arial, sans-serif;
     }
 
-    .meta span {
-      font-family: 'Intelligent design averta', Arial, sans-serif;
-      font-weight: 600;
-    }
+    
 
     .w-clearfix .w-list-unstyled:nth-of-type(1) .w-inline-block {
       height: 44px;
@@ -1535,7 +1389,6 @@
     .frame {
       overflow: hidden;
       background-image: url(img/5af23f1c461aed90dcd5ad4a_DSCF2710_copy.jpg);
-      overflow: hidden;
       background-position: center;
       box-shadow: 0 30px 48px -1px rgba(0, 0, 0, .09);
       border-radius: 14px;
@@ -1640,9 +1493,7 @@
       .section {
         padding-top: 20px;
       }
-      .section {
-        display: block;
-      }
+  
       .copy.semilight,
       .heading-2.panes.centered {
         text-align: center;
@@ -1688,66 +1539,7 @@
       }
     }
 
-    img {
-      display: inline-block;
-      max-width: 100%;
-    }
-
-    ::-webkit-input-placeholder {
-      color: #748493;
-    }
-
-    ::-moz-placeholder {
-      color: #748493;
-    }
-
-    :-ms-input-placeholder {
-      color: #748493;
-    }
-
-    :-moz-placeholder {
-      color: #748493;
-    }
-
-    ::-webkit-input-placeholder {
-      color: #748493;
-    }
-
-    ::-moz-placeholder {
-      color: #748493;
-    }
-
-    :-ms-input-placeholder {
-      color: #748493;
-    }
-
-    :-moz-placeholder {
-      color: #748493;
-    }
-
-    .copy,
-    p {
-      font-family: 'Intelligent design averta', Arial, sans-serif;
-    }
-
-    .copy {
-      text-align: left;
-    }
-
-    .copy {
-      -webkit-box-flex: 1;
-    }
-
-    .copy {
-      -webkit-flex: 1;
-      -ms-flex: 1;
-      flex: 1;
-      color: #222;
-      font-size: 18px;
-      line-height: 28px;
-      font-weight: 400;
-    }
-
+ 
     .copy.left {
       color: #222;
     }
@@ -1758,20 +1550,7 @@
       display: -ms-flexbox;
     }
 
-    .flex-box-div {
-      margin-top: 20px;
-    }
-
-    .flex-box-div {
-      display: flex;
-      margin-bottom: 20px;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
-    }
-
+   
     .flex-box {
       display: -webkit-box;
       display: -webkit-flex;
@@ -2142,21 +1921,7 @@
       <path fill="currentColor" d="M1196.008 53H1200V0H0v44.816-8.184C159.341 14.63 311.343 2.484 456.007.196 600.122-2.084 846.789 15.518 1196.008 53z"></path>
     </svg>
     <div class="w-embed">
-      <style>
-        ::-webkit-scrollbar {
-          display: none;
-        }
-
-        .disabled {
-          pointer-events: none !important;
-          cursor: default !important;
-        }
-
-        .toggle-link {
-          white-space: nowrap;
-          overflow: hidden;
-        }
-      </style>
+     
     </div>
     <div class="_1200-container flex">
       <div class="floating-cell _7col">
@@ -3260,7 +3025,6 @@
   <!-- [if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script src="js/staging.8e703e4dc.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/footer-staging.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
   <script>
     // On page ready
     var Webflow = Webflow || [];
