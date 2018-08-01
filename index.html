@@ -6,6 +6,7 @@
   <meta content="Óculos personalizados e com materiais premium."
     name="description">
   <meta content="width=device-width, initial-scale=1" name="viewport">
+  <!-- <link href="ultra-light.css" rel="preload" type="text/css"> -->
   <link href="style.css" rel="preload" type="text/css">
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">
@@ -16,12 +17,21 @@
         t + "touch")
     }(window, document);
   </script>
-  
   <style>
+    body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #fff;
+      font-size: 14px;
+      line-height: 20px;
+      color: #333;
+    }
+
     a,
     .noflash {
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+      color: rgba(0, 0, 0, 0);
     }
 
     svg.bubble-header {
@@ -38,27 +48,25 @@
     }
 
     /*! CSS Used from: Embedded */
+
     ::-webkit-scrollbar {
-          display: none;
-        }
+      display: none;
+    }
 
-        .disabled {
-          pointer-events: none !important;
-          cursor: default !important;
-        }
+    .disabled {
+      pointer-events: none !important;
+      cursor: default !important;
+    }
 
-        .toggle-link {
-          white-space: nowrap;
-          overflow: hidden;
-        }
+    .toggle-link {
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
     a {
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       -moz-tap-highlight-color: rgba(0, 0, 0, 0);
     }
-
- 
-
-
 
     /*! CSS Used from: style.css */
 
@@ -75,13 +83,10 @@
       vertical-align: baseline;
     }
 
- 
     a:active,
     a:hover {
       outline: 0;
     }
-
-   
 
     img {
       border: 0;
@@ -142,8 +147,6 @@
       margin-bottom: 10px;
     }
 
- 
-
     ul {
       padding-left: 40px;
     }
@@ -182,8 +185,6 @@
       margin-left: auto;
     }
 
- 
-  
     @media screen and (max-width: 479px) {
       .w-tab-link {
         display: block;
@@ -258,21 +259,15 @@
       display: -ms-flexbox;
     }
 
-  
-
     .section.header {
       height: 704px;
       padding-right: 0;
-      margin-top: 50px;
+      margin-top: 57px;
       padding-left: 0;
       background-position: 50% 50%;
       background-size: cover;
       background-image: url(img/banner-varilux-1920.jpg);
     }
-
-
-
- 
 
     .floating-cell.h1._7col {
       position: relative;
@@ -304,14 +299,10 @@
       min-height: 100px;
     }
 
-  
-
     .brand {
       width: 212px;
       height: auto;
     }
-
-
 
     .button.primary:hover {
       border-color: #8678ff;
@@ -323,8 +314,6 @@
       padding-top: 12px;
     }
 
- 
-
     .primary-action {
       display: inline-block;
       margin-top: 20px;
@@ -334,10 +323,6 @@
       -ms-flex: 0 0 auto;
       flex: 0 0 auto;
     }
-
-  
-
-
 
     .image-8 {
       margin-bottom: 0;
@@ -356,8 +341,6 @@
       background-repeat: no-repeat;
     }
 
-
-  
     @media (max-width: 991px) {
       ._1200-container {
         width: 100%;
@@ -420,7 +403,6 @@
       .section {
         overflow: hidden;
       }
-
       .section.header.home {
         display: -webkit-box;
         display: -webkit-flex;
@@ -525,7 +507,6 @@
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
       }
- 
       ._1200-container.flex {
         padding-right: 20px;
         padding-left: 20px;
@@ -721,11 +702,11 @@
       margin-left: 10px;
       font-weight: 300;
     }
-    .meta span {
-    font-family: 'Intelligent design averta', Arial, sans-serif;
-    font-weight: 600;
-}
 
+    .meta span {
+      font-family: 'Intelligent design averta', Arial, sans-serif;
+      font-weight: 600;
+    }
 
     .container {
       display: block;
@@ -1053,8 +1034,6 @@
     p {
       font-family: 'Intelligent design averta', Arial, sans-serif;
     }
-
-    
 
     .w-clearfix .w-list-unstyled:nth-of-type(1) .w-inline-block {
       height: 44px;
@@ -1493,7 +1472,6 @@
       .section {
         padding-top: 20px;
       }
-  
       .copy.semilight,
       .heading-2.panes.centered {
         text-align: center;
@@ -1539,7 +1517,6 @@
       }
     }
 
- 
     .copy.left {
       color: #222;
     }
@@ -1550,7 +1527,6 @@
       display: -ms-flexbox;
     }
 
-   
     .flex-box {
       display: -webkit-box;
       display: -webkit-flex;
@@ -1920,9 +1896,7 @@
     <svg viewbox="0 0 1200 53" class="col-12 absolute top-0 text-white" style="height: auto;color: #fff;fill: #fff;">
       <path fill="currentColor" d="M1196.008 53H1200V0H0v44.816-8.184C159.341 14.63 311.343 2.484 456.007.196 600.122-2.084 846.789 15.518 1196.008 53z"></path>
     </svg>
-    <div class="w-embed">
-     
-    </div>
+    <div class="w-embed"> </div>
     <div class="_1200-container flex">
       <div class="floating-cell _7col">
         <h4 class="heading-2 what compact demo-version kicker">Descubra como podemos te ajudar</h4>
@@ -3016,12 +2990,11 @@
     </div>
   </footer>
   <link href="style.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+  <!-- <link href="ultra-light.css" rel="stylesheet" type="text/css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"> -->
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsMAiiLaY985OTjMI8pG-SCRiGbS3I_Cc&callback=initialize">
   </script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-    crossorigin="anonymous"></script>
-  <!-- <script src="js/jquery-3.3.1.min.js" type="text/javascript" crossorigin="anonymous" charset="utf-8"></script> -->
+<script src="js/jquery-3.3.1.js"  type="text/javascript" charset="utf-8"></script>
   <!-- [if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script src="js/staging.8e703e4dc.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/footer-staging.js" type="text/javascript" charset="utf-8"></script>
