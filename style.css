@@ -4071,15 +4071,12 @@ h4.heading-2{
     border-color: transparent;
 }
 
-.frame.fr1 {
-    height: 157px;
-    background-image: url(img/5ac679df61777f83388c240a_IMG_9627@2x.jpg)
+.frame.fr1 ,.frame.fr3 ,.frame.fr2{
+    height: 160px;
+    background-image: url(https://gradientjoy.com/500x300)
 }
 
-.frame.fr3 {
-    overflow: visible;
-    background-image: url(img/5ac679df0ed0ad83684f9b1b_Bitmap@2x.jpg)
-}
+
 
 .image-3 {
     position: absolute;
