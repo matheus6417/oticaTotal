@@ -30,16 +30,16 @@
       overflow: hidden;
     }
 
-      #map, #pano {
-        float: left;
-        height: 100%;
-        width: 50%;
-      }
+    #map,
+    #pano {
+      float: left;
+      height: 100%;
+      width: 50%;
+    }
   </style>
 </head>
 
 <body class="body">
-  
   <div class="section header home" id="Header">
     <div class="meta">
       <div class="container w-clearfix" style="padding: 8px;">
@@ -108,10 +108,10 @@
         <h1 class="heading-9 light"> Óculos personalizados, só para os exigentes. </h1>
         <h1 class="heading-8 light w-hidden-small w-hidden-tiny"> A sua ótica em itajaí, agora com ainda mais benefícios. </h1>
         <div class="primary-action">
-          <a href="#" class="button varilux w-button">
+          <a id="btn-hero-varilux-em-dobro" href="#" class="button varilux w-button">
             <i class="features__messenger-icon" style="filter: invert(0.9);"></i> Quero lentes varilux em dobro! </a>
         </div>
-        <section class="media media--block-mobile small-video small-video--1" data-wistia-id="mj7niyhy6b" data-show-markup-block="video-clicker"
+        <section id="video-hero-varilux-em-dobro" class="media media--block-mobile small-video small-video--1" data-wistia-id="mj7niyhy6b" data-show-markup-block="video-clicker"
           style="display: block;">
           <div class="media__left">
             <script src="https://fast.wistia.com/embed/medias/mj7niyhy6b.jsonp" async></script>
@@ -149,7 +149,7 @@
               </div>
             </div>
           </div>
-          <div class="media__body media--middle">
+          <div id="description-hero-varilux-em-dobro" class="media__body media--middle">
             <p class="small-video__blurb"> Leticia Spiller revela porquê as lentes varilux são boas demais! </p>
           </div>
         </section>
@@ -169,22 +169,19 @@
   </div>
   <div id="brands" class="brands-container">
     <div class="grid-7_md-3 grid-spaceAround">
-      <!-- <a href="#" class="logo-wrapper w-inline-block">
-                <img src="img/otica-total-itajai-crizal.png" width="110" srcset="img/otica-total-itajai-crizal.png"
-                  sizes="110px"> </a> -->
-      <a href="#" class="logo-wrapper grid-middle">
+      <a id="brand-logo-crizal" href="#" class="logo-wrapper grid-middle">
         <img src="img\otica-total-itajai-crizal.png"> </a>
-      <a href="#" class="logo-wrapper grid-middle">
+      <a id="brand-logo-essilor" href="#" class="logo-wrapper grid-middle">
         <img src="img\otica-total-itajai-essilor.png"> </a>
-      <a href="#" class="logo-wrapper grid-middle">
+      <a id="brand-logo-hoya" href="#" class="logo-wrapper grid-middle">
         <img src="img\otica-total-itajai-hoya.png" width="108"> </a>
-      <a href="#" class="logo-wrapper grid-middle">
+      <a id="brand-logo-zeizz" href="#" class="logo-wrapper grid-middle">
         <img src="img\otica-total-itajai-zeizz.png"> </a>
-      <a href="#" class="logo-wrapper grid-middle">
+      <a id="brand-logo-transitions" href="#" class="logo-wrapper grid-middle">
         <img src="img\otica-total-itajai-transitions.png"> </a>
-      <a href="#" class="logo-wrapper grid-middle">
+      <a id="brand-logo-rayban" href="#" class="logo-wrapper grid-middle">
         <img src="img\otica-total-itajai-ray-ban.png"> </a>
-      <a href="#" class="logo-wrapper grid-middle">
+      <a id="brand-logo-varilux" href="#" class="logo-wrapper grid-middle">
         <img src="img\otica-total-itajai-varilux.png"> </a>
     </div>
   </div>
@@ -194,7 +191,7 @@
         <br> pois encontrou sua ótica ideal! </h2>
       <div class="container-table">
         <div class="div-block-3">
-          <div class=" frame" style="padding: 20px;background-image: none;">
+          <div class=" frame" id="benefit-1-hundred-consultation" style="padding: 20px;background-image: none;">
             <img src="img/w1200_64ef_1_copy.png" alt="Ganhe uma consulta por apenas R$ 100" title="" class="full-width">
             <div class="div-block-12">
               <h3 class="heading-2 panes centered">Ganhe uma consulta por apenas R$ 100</h3>
@@ -205,7 +202,7 @@
           </div>
         </div>
         <div class="div-block-3">
-          <div class=" frame" style="padding: 20px;background-image: none;">
+          <div class=" frame" id="benefit-2-specialists" style="padding: 20px;background-image: none;">
             <img src="img/w1200_d96e_2_copy.png" alt="Orientação de Especialistas" title="" class="full-width">
             <div class="div-block-12">
               <h3 class="heading-2 panes centered">Orientação de Especialistas</h3>
@@ -215,7 +212,7 @@
           </div>
         </div>
         <div class="div-block-3">
-          <div class=" frame" style="padding: 20px;background-image: none;">
+          <div class=" frame" id="benefit-3-adjustment" style="padding: 20px;background-image: none;">
             <img src="img/w1200_1722_3_copy.png" alt="Tenha uma visão perfeita, com nosso ajuste perfeito" title="" class="full-width">
             <div class="div-block-12">
               <h3 class="heading-2 panes centered"> Tenha uma visão perfeita, com nosso ajuste perfeito </h3>
@@ -228,7 +225,7 @@
       </div>
       <div class="container-table">
         <div class="div-block-3">
-          <div class="frame" style="padding: 20px; background-image: none">
+          <div class=" frame" id="benefit-4-lenses" style="padding: 20px; background-image: none">
             <img src="img/w1200_2a8c_4_copy.png" alt="Apenas as melhores lentes" title class="full-width">
             <div class="div-block-12">
               <h3 class="heading-2 panes centered">Apenas as melhores lentes</h3>
@@ -241,7 +238,7 @@
           </div>
         </div>
         <div class="div-block-3">
-          <div class="frame" style="padding: 20px; background-image: none">
+          <div class=" frame" id="benefit-5-price-quality" style="padding: 20px; background-image: none">
             <img src="img/w1200_d27c_5_copy.png" alt="Preço justo e qualidade inquestionável" title class="full-width">
             <div class="div-block-12">
               <h3 class="heading-2 panes centered">Preço justo e qualidade inquestionável</h3>
@@ -269,7 +266,7 @@
           </div>
         </div>
         <div class="div-block-3">
-          <div class="frame" style="padding: 20px; background-image: none">
+          <div class=" frame" id="benefit-6-premium" style="padding: 20px; background-image: none">
             <img src="img/w1200_90e6_6_copy.png" alt title class="full-width">
             <div class="div-block-12">
               <h3 class="heading-2 panes centered">Ainda mais com Upgrades Premium!</h3>
@@ -300,7 +297,6 @@
       </div>
     </div>
   </div>
-
   <div id="quiz" class="section lined demo" style="border: none; padding: 0;">
     <svg viewbox="0 0 1200 53" class="col-12 absolute top-0 text-white" style="height: auto;color: #fff;fill: #fff;">
       <path fill="currentColor" d="M1196.008 53H1200V0H0v44.816-8.184C159.341 14.63 311.343 2.484 456.007.196 600.122-2.084 846.789 15.518 1196.008 53z"></path>
@@ -331,52 +327,52 @@
     <div class="div-block-20">
       <div data-easing="ease-in-out" data-duration-in="250" data-duration-out="250" class="tabs w-tabs">
         <div id="fit-assessment-tabs" class="tabs-menu home draggable w-tab-menu">
-          <a data-w-tab="Default" data-problems="default" class="toggle-link hidden-default w-inline-block w-tab-link w--current">
+          <a data-w-tab="Default" id="problem-default" data-problems="default" class="toggle-link hidden-default w-inline-block w-tab-link w--current">
             <div>Default</div>
           </a>
-          <a data-w-tab="Tab 1" data-problems="pinching" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 1" id="problem-pinching" data-problems="pinching" class="toggle-link w-inline-block w-tab-link">
             <div class="text-block-8">Belisca</div>
           </a>
-          <a data-w-tab="Tab 2" data-problems="headaches" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 2" id="problem-headaches" data-problems="headaches" class="toggle-link w-inline-block w-tab-link">
             <div>Dor de Cabeça</div>
           </a>
-          <a data-w-tab="Tab 3" data-problems="nosebridge" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 3" id="problem-nosebridge" data-problems="nosebridge" class="toggle-link w-inline-block w-tab-link">
             <div>Ponte nasal</div>
           </a>
-          <a data-w-tab="Tab 4" data-problems="slipping" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 4" id="problem-slipping" data-problems="slipping" class="toggle-link w-inline-block w-tab-link">
             <div>Escorrega</div>
           </a>
-          <a data-w-tab="Tab 5" data-problems="touchingcheeks" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 5" id="problem-touchingcheeks" data-problems="touchingcheeks" class="toggle-link w-inline-block w-tab-link">
             <div>Toca as bochechas</div>
           </a>
-          <a data-w-tab="Tab 6" data-problems="stretching" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 6" id="problem-stretching" data-problems="stretching" class="toggle-link w-inline-block w-tab-link">
             <div>Astes frouxas</div>
           </a>
-          <a data-w-tab="Tab 7" data-problems="touchingeyelashes" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 7" id="problem-touchingeyelashes" data-problems="touchingeyelashes" class="toggle-link w-inline-block w-tab-link">
             <div>Toca os cílios</div>
           </a>
-          <a data-w-tab="Tab 8" data-problems="redmarks" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 8" id="problem-redmarks" data-problems="redmarks" class="toggle-link w-inline-block w-tab-link">
             <div>Marcas vermelhas</div>
           </a>
-          <a data-w-tab="Tab 9" data-problems="crooked" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 9" id="problem-crooked" data-problems="crooked" class="toggle-link w-inline-block w-tab-link">
             <div>Torto</div>
           </a>
-          <a data-w-tab="Tab 10" data-problems="toosmall" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 10" id="problem-toosmall" data-problems="toosmall" class="toggle-link w-inline-block w-tab-link">
             <div>Muito pequeno</div>
           </a>
-          <a data-w-tab="Tab 11" data-problems="toobig" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 11" id="problem-toobig" data-problems="toobig" class="toggle-link w-inline-block w-tab-link">
             <div>Muito grande</div>
           </a>
-          <a data-w-tab="Tab 13" data-problems="lensthickness" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 13" id="problem-lensthickness" data-problems="lensthickness" class="toggle-link w-inline-block w-tab-link">
             <div>Lente grossa</div>
           </a>
-          <a data-w-tab="Tab 14" data-problems="tooheavy" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 14" id="problem-tooheavy" data-problems="tooheavy" class="toggle-link w-inline-block w-tab-link">
             <div>Muito pesado</div>
           </a>
-          <a data-w-tab="Tab 15" data-problems="distortedvision" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 15" id="problem-distortedvision" data-problems="distortedvision" class="toggle-link w-inline-block w-tab-link">
             <div>Visão distorcida</div>
           </a>
-          <a data-w-tab="Tab 16" data-problems="other" class="toggle-link w-inline-block w-tab-link">
+          <a data-w-tab="Tab 16" id="problem-other" data-problems="other" class="toggle-link w-inline-block w-tab-link">
             <div>Algo mais</div>
           </a>
         </div>
@@ -531,7 +527,7 @@
     <div class="_1200-container upper">
       <div class="floating-cell _7col home-demo-section w-clearfix">
         <div class="primary-action symptoms-cta demo">
-          <a id="btn-fit-assessment" href="#" class="button-2 primary home w-button"> Quero um óculos perfeito </a>
+          <a id="btn-quero-oculos-perfeito-resolver" href="#" class="button-2 primary home w-button"> Quero um óculos perfeito! </a>
         </div>
       </div>
     </div>
@@ -551,7 +547,7 @@
       <div class="container _2col"></div>
       <div class="w-row">
         <div class="column w-col w-col-4">
-          <a href="#" class="link-block-5 w-inline-block">
+          <a id="glasses-style-1" href="#" class="link-block-5 w-inline-block">
             <div class="poc-block web-experiment-3">
               <div class="div-block">
                 <div class="block-line">
@@ -565,7 +561,7 @@
           </a>
         </div>
         <div class="column-2 w-col w-col-4">
-          <a href="#" class="link-block-5 w-inline-block">
+          <a id="glasses-style-2" href="#" class="link-block-5 w-inline-block">
             <div class="poc-block web-experiment-3 cortland">
               <div class="div-block">
                 <div class="block-line">
@@ -579,7 +575,7 @@
           </a>
         </div>
         <div class="column-3 w-col w-col-4">
-          <a href="#" class="link-block-5 w-inline-block">
+          <a id="glasses-style-3" href="#" class="link-block-5 w-inline-block">
             <div class="poc-block web-experiment-3 lombard">
               <div class="div-block">
                 <div class="block-line">
@@ -595,7 +591,7 @@
       </div>
       <div class="w-row">
         <div class="column-4 w-col w-col-4">
-          <a href="#" class="link-block-5 w-inline-block">
+          <a id="glasses-style-4" href="#" class="link-block-5 w-inline-block">
             <div class="poc-block web-experiment-3 bay">
               <div class="div-block">
                 <div class="block-line">
@@ -609,7 +605,7 @@
           </a>
         </div>
         <div class="column-5 w-col w-col-4">
-          <a href="#" class="link-block-5 w-inline-block">
+          <a id="glasses-style-5" href="#" class="link-block-5 w-inline-block">
             <div class="poc-block web-experiment-3 octavia">
               <div class="div-block">
                 <div class="block-line">
@@ -623,7 +619,7 @@
           </a>
         </div>
         <div class="column-6 w-col w-col-4">
-          <a href="#" class="link-block-5 w-inline-block">
+          <a id="glasses-style-6" href="#" class="link-block-5 w-inline-block">
             <div class="poc-block web-experiment-3 montgomery">
               <div class="div-block">
                 <div class="block-line">
@@ -639,7 +635,7 @@
       </div>
       <div class="w-row">
         <div class="column-7 w-col w-col-4">
-          <a href="#" class="link-block-5 w-inline-block">
+          <a id="glasses-style-7" href="#" class="link-block-5 w-inline-block">
             <div class="poc-block web-experiment-3 sansome">
               <div class="div-block">
                 <div class="block-line">
@@ -653,7 +649,7 @@
           </a>
         </div>
         <div class="column-8 w-col w-col-4">
-          <a href="#" class="link-block-5 w-inline-block">
+          <a id="glasses-style-8" href="#" class="link-block-5 w-inline-block">
             <div class="poc-block web-experiment-3 dolores">
               <div class="div-block">
                 <div class="block-line">
@@ -669,7 +665,7 @@
         <div class="column-9 w-col w-col-4"></div>
       </div>
     </div>
-  </div> 
+  </div>
   <!-- desktop showcase -->
   <section id="showcase" class="text-center d-none d-md-block w-hidden-medium w-hidden-small w-hidden-tiny">
     <h2 class="heading-2 light showcase-heading" style="top: 5%;
@@ -687,39 +683,8 @@
         de equilíbrio em lentes novas </p>
     </div>
   </section>
-  <div id="eyewear" class="section">
-    <div class="_1200-container light our-eyewear">
-      <h2 class="heading-2 our-eyewear-heading"> Ainda em dúvida? Queremos te dar muito mais!</h2>
-      <div class="container-table">
-        <div class="div-block-3">
-          <div class="frame fr1"></div>
-          <div class="div-block-12">
-            <h3 class="heading-2 panes centered">Orientação personalizada</h3>
-            <div class="copy semilight"> Bate-papo ao vivo ou por chat com nossos especialistas a qualquer momento! Venha à loja e tenha
-              assistência individual durante todo o processo. </div>
-          </div>
-        </div>
-        <div class="div-block-3">
-          <div class="frame fr2"></div>
-          <div class="div-block-12">
-            <h3 class="heading-2 panes centered">Engenheiro especialista</h3>
-            <div class="copy semilight"> Nosso engenheiro executa verificações de qualidade em todos os pontos críticos - desde a verificação de sua estrutura
-              facial até a verificação dos detalhes da produção final. </div>
-          </div>
-        </div>
-        <div class="div-block-3">
-          <div class="frame fr3"></div>
-          <div class="div-block-13">
-            <h3 class="heading-2 panes centered">Materiais Premium</h3>
-            <div class="copy semilight"> Cada armação é trabalhada a partir de acetato italiano de alta qualidade ou aço inoxidável de fabricação americana
-              para uma sensação leve e durável. </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <img src="img/5ac27ae3d82205e6f0a9a4e9_Path%203.svg" class="image"> </div>
-  <!-- mobile showcase -->
-  <section id="showcase-xs" class="text-center d-md-none bg-preto pb30 w-hidden-main">
+   <!-- mobile showcase -->
+   <section id="showcase-xs" class="text-center d-md-none bg-preto pb30 w-hidden-main">
     <div class="carousel-showcase">
       <div>
         <img class="img-fluid" src="img\perto-p-longe-xs.jpg" alt>
@@ -745,7 +710,39 @@
       </div>
     </div>
   </section>
-  <div class="section lined promise">
+  <div id="more-benefits" class="section">
+    <div class="_1200-container light our-eyewear">
+      <h2 class="heading-2 our-eyewear-heading"> Ainda em dúvida? Queremos te dar muito mais!</h2>
+      <div class="container-table">
+        <div class="div-block-3">
+          <div class="frame fr1"></div>
+          <div class="div-block-12">
+            <h3 class="heading-2 panes centered">Orientação personalizada</h3>
+            <div class="copy semilight"> Bate-papo ao vivo ou por chat com nossos especialistas a qualquer momento! Venha à loja e tenha assistência individual
+              durante todo o processo. </div>
+          </div>
+        </div>
+        <div class="div-block-3">
+          <div class="frame fr2"></div>
+          <div class="div-block-12">
+            <h3 class="heading-2 panes centered">Engenheiro especialista</h3>
+            <div class="copy semilight"> Nosso engenheiro executa verificações de qualidade em todos os pontos críticos - desde a verificação de sua estrutura
+              facial até a verificação dos detalhes da produção final. </div>
+          </div>
+        </div>
+        <div class="div-block-3">
+          <div class="frame fr3"></div>
+          <div class="div-block-13">
+            <h3 class="heading-2 panes centered">Materiais Premium</h3>
+            <div class="copy semilight"> Cada armação é trabalhada a partir de acetato italiano de alta qualidade ou aço inoxidável de fabricação americana
+              para uma sensação leve e durável. </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="img/5ac27ae3d82205e6f0a9a4e9_Path%203.svg" class="image"> </div>
+ 
+  <div id="promisse" class="section lined promise">
     <div class="_1200-container flex promise-container">
       <div class="floating-cell _7col gaped">
         <h2 class="heading-2 light promise">Nossa promessa</h2>
@@ -765,7 +762,7 @@
       </div>
     </div>
   </div>
-  <div class="section innovative">
+  <div id="perfect-vision" class="section innovative">
     <img src="img/5ac27ae3d8220504f6a9a4f4_Path_6.svg" class="image-3">
     <div class="_1200-container flex">
       <div class="floating-cell vision left">
@@ -789,20 +786,15 @@
           </div>
           <div class="flex-box">
             <img src="img/5b3fe5b53631e8cf4af4bec3_checkmark-purple.png" class="image-34">
-            <p class="copy left"> Atendimento especial e personalizado 
+            <p class="copy left"> Atendimento especial e personalizado
               <br> </p>
           </div>
         </div>
         <a href="#" class="button main-dl occurence w-inline-block"></a>
       </div>
       <div class="floating-cell _7col vision">
-    
-
-
-
-
         <div class="component-accordion">
-          <div class="accordion-item first">
+          <div id="accordion-1" class="accordion-item first">
             <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe244e" class="accordion-item-header">
               <h4 class="text-block-3 default">Lentes de alto-índice</h4>
               <div class="accordion-header-icon-wrapper">
@@ -823,7 +815,7 @@
             </div>
             <div class="accordion-item-content open"></div>
           </div>
-          <div class="accordion-item">
+          <div id="accordion-2" class="accordion-item">
             <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe245c" class="accordion-item-header">
               <h4 data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe245d" class="text-block-3"> Progressivas de última geração </h4>
               <div class="accordion-header-icon-wrapper">
@@ -837,15 +829,15 @@
                   <br>
                   <br> Seu exame facial nos diz exatamente onde a armação personalizada posicionará sua lente. Isso nos permite
                   criar sua lente com a maior área de leitura possível e o corredor intermediário mais amplo, além de minimizar
-                  a distorção periférica. Converse com nossos especialistas para ajudar a escolher um quadro
-                  ou saber mais sobre nossas lentes. </p>
+                  a distorção periférica. Converse com nossos especialistas para ajudar a escolher um quadro ou saber mais
+                  sobre nossas lentes. </p>
               </div>
               <div class="accordion-column w-col w-col-6">
                 <img src="img/5afdc88aead65d8d536756c5_BetterVision-final-03.png" class="image-14"> </div>
             </div>
             <div class="accordion-item-content"></div>
           </div>
-          <div class="accordion-item">
+          <div id="accordion-3" class="accordion-item">
             <div data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe246a" class="accordion-item-header">
               <h4 data-w-id="8a2f5041-2c71-ee78-9cfb-bfcf79fe246b" class="text-block-3"> Revestimentos premium </h4>
               <div class="accordion-header-icon-wrapper">
@@ -868,7 +860,7 @@
             </div>
             <div class="accordion-item-content"></div>
           </div>
-          <div class="accordion-item">
+          <div id="accordion-4" class="accordion-item">
             <div data-w-id="a0574c32-6dcc-7d7c-fb00-25b841548722" class="accordion-item-header">
               <h4 class="text-block-3">Filtros UV & Proteção Solar</h4>
               <div class="accordion-header-icon-wrapper">
@@ -891,7 +883,8 @@
             </div>
             <div class="accordion-item-content"></div>
           </div>
-        </div> </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="section-3">
@@ -1304,7 +1297,7 @@
       <h2 class="heading-2 light">O que nossos clientes estão dizendo</h2>
       <div class="w-slider-mask">
         <div class="w-slide" style="transform: translateX(-648px); opacity: 1; transition: transform 600ms;">
-          <div class="wrapper review-slide-wrapper w-container">
+          <div id="Testimonial-1" class="wrapper review-slide-wrapper w-container">
             <div class="review-slide">
               <img src="img/59a527236f025f00017eecf2_avatar-1.jpg" class="review-avatar">
               <div class="review-content">
@@ -1317,7 +1310,7 @@
           </div>
         </div>
         <div class="w-slide" style="transform: translateX(-648px); opacity: 1; transition: transform 600ms;">
-          <div class="wrapper w-container">
+          <div id="Testimonial-2" class="wrapper w-container">
             <div class="review-slide">
               <img src="img/59a52724275ea20001337e3c_avatar-2.jpg" class="review-avatar">
               <div class="review-content">
@@ -1330,7 +1323,7 @@
           </div>
         </div>
         <div class="w-slide" style="transform: translateX(-648px); opacity: 1; transition: transform 600ms;">
-          <div class="review-slide">
+          <div  id="Testimonial-3" class="review-slide">
             <img src="img/59a527240360300001d82b7a_avatar-3.jpg" class="review-avatar">
             <div class="review-content">
               <h5>Cliente exemplo</h5>
@@ -1341,9 +1334,9 @@
           </div>
         </div>
       </div>
-      <div class="slider-arrow arrow-left w-slider-arrow-left">
+      <div  id="Testimonial-left" class="slider-arrow arrow-left w-slider-arrow-left">
         <img src="img/59a3ba84fdd0390001e1258d_arrow-scroll-left-icon.svg"> </div>
-      <div class="slider-arrow arrow-right w-slider-arrow-right">
+      <div  id="Testimonial-right" class="slider-arrow arrow-right w-slider-arrow-right">
         <img src="img/59a3ba84fdd0390001e1258b_arrow-scroll-right-icon.svg"> </div>
       <div class="testimonoals-nav w-hidden-main w-hidden-medium w-slider-nav w-round">
         <div class="w-slider-dot" data-wf-ignore></div>
@@ -1357,23 +1350,24 @@
     <div id="pano"></div>
     <script>
       function initialize() {
-        var fenway = {lat: -26.90948, lng: -48.660461};
+        var fenway = {
+          lat: -26.90948,
+          lng: -48.660461
+        };
         var map = new google.maps.Map(document.getElementById('map'), {
           center: fenway,
           zoom: 16
         });
-        var panorama = new google.maps.StreetViewPanorama(
-            document.getElementById('pano'), {
-              position: fenway,
-              pov: {
-                heading: 70,
-                pitch: 10
-              }
-            });
+        var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), {
+          position: fenway,
+          pov: {
+            heading: 70,
+            pitch: 10
+          }
+        });
         map.setStreetView(panorama);
       }
     </script>
-   
   </div>
   <footer class="section footer">
     <div class="_1200-container footer">
@@ -1388,26 +1382,26 @@
               você. </p>
             <ul class="link-list social-list w-list-unstyled">
               <li class="link-list-item">
-                <a class="social-link w-inline-block" target="newtab" href="http://pt-br.facebook.com/oticatotal">
+                <a id="facebook-link" class="social-link w-inline-block" target="newtab" href="http://pt-br.facebook.com/oticatotal">
                   <img class="social-icon" src="img/58f955c3e1172e1fd0a32f3e_facebook.svg"> </a>
               </li>
             </ul>
           </div>
           <div class="footer-v2-column">
             <h5>Horário</h5>
-            <a href class="link-2"> Seg - Sex: 8h - 18h
+            <a id="footer-time" class="link-2"> Seg - Sex: 8h - 18h
               <br> Sab: 8h - 14h </a>
           </div>
           <div class="footer-v2-column">
             <h5>Contato</h5>
-            <a href="tel:+554730452661" class="link-2"> Tel: (47) 3045-2661 </a>
+            <a id="footer-telephone" href="tel:+554730452661" class="link-2"> Tel: (47) 3045-2661 </a>
             <br>
-            <a href="tel:+5547996391241" class="link-2"> Whatsapp: (47) 99639-1241 </a>
+            <a id="footer-whatsapp" href="tel:+5547996391241" class="link-2"> Whatsapp: (47) 99639-1241 </a>
           </div>
           <div class="footer-v2-column">
             <h5>Endereço</h5>
             <div class="address">
-              <a class="link-2" href="https://www.google.com.br/maps/dir/''/otica+total+itajai/data=!4m5!4m4!1m0!1m2!1m1!1s0x94d8cc7311f8894b:0xb41b89592c4079c5?sa=X&sqi=2&ved=0ahUKEwiUyLbpqc_bAhWDWSwKHaTuDwEQ9RcIkAIwKQ">
+              <a id="footer-endereco"  class="link-2" href="https://www.google.com.br/maps/dir/''/otica+total+itajai/data=!4m5!4m4!1m0!1m2!1m1!1s0x94d8cc7311f8894b:0xb41b89592c4079c5?sa=X&sqi=2&ved=0ahUKEwiUyLbpqc_bAhWDWSwKHaTuDwEQ9RcIkAIwKQ">
               Av. Cel. Marcos Konder, 789
                 <br> Itajaí - SC, 88301-303
                 <br> </a>
@@ -1417,9 +1411,8 @@
       </div>
     </div>
   </footer>
-  <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsMAiiLaY985OTjMI8pG-SCRiGbS3I_Cc&callback=initialize">
-</script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsMAiiLaY985OTjMI8pG-SCRiGbS3I_Cc&callback=initialize">
+  </script>
   <script src="js/jquery-3.3.1.min.js" type="text/javascript" crossorigin="anonymous" charset="utf-8"></script>
   <!-- [if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
@@ -1445,7 +1438,6 @@
       }); // End lightbox clicked
     }); // End ready function
   </script>
-
 </body>
 
 </html>

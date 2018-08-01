@@ -1,4 +1,4 @@
-b,
+﻿b,
 h1,
 h2,
 h3,
@@ -11007,7 +11007,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
 
 .logo-wrapper {
     height: 85px;
-    opacity: 0.8;
+    opacity: 0.8;    transition: ease 0.2s;
     padding: 8px;
 }
 
@@ -12072,11 +12072,6 @@ h5 {
     background-image: url("img/big_hero_ornament_01-deb71018.svg");
 }
 
-@media (max-width: 767px) {
-    .big-hero__ornament--1 {
-        bottom: 160px;
-    }
-}
 
 .vertical-scroll-footer.w-inline-block {
     filter: invert(1);
