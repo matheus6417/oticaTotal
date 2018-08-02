@@ -3045,16 +3045,17 @@ figcaption {
 .heading-2 {
     text-align: center
 }
-h4.heading-2{
+
+h4.heading-2 {
     margin-bottom: -20px;
-    font-family: 'Intelligent design averta',Arial,sans-serif;
+    font-family: 'Intelligent design averta', Arial, sans-serif;
     color: #9a9a9a;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
-
 }
+
 .copy.semilight.aligned.subtext {
     color: #9a9a9a;
     font-size: 14px;
@@ -4071,12 +4072,12 @@ h4.heading-2{
     border-color: transparent;
 }
 
-.frame.fr1 ,.frame.fr3 ,.frame.fr2{
+.frame.fr1,
+.frame.fr3,
+.frame.fr2 {
     height: 160px;
     background-image: url(https://gradientjoy.com/500x300)
 }
-
-
 
 .image-3 {
     position: absolute;
@@ -7376,7 +7377,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
-        background-size: auto 670px
+        background-size: auto;
     }
     .section.lined.promise {
         padding-top: 32px;
@@ -7521,12 +7522,14 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         text-align: left
     }
     .floating-cell.top {
-        display: block;
+        display: flex;
         -webkit-box-flex: 1;
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1
     }
+    .heading-8{margin: 20px}
+    .floating-cell.top .brand{ margin: auto}
     .button.main-dl,
     .tabs-menu.home.draggable {
         display: -webkit-box;
@@ -7560,10 +7563,11 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         margin-top: 80px
     }
     .primary-action {
-        position: absolute;
+        position: relative;
         left: 0;
         right: 0;
-        bottom: 86px;
+        bottom: 0;
+        margin: 20px 0;
         display: block;
         width: 350px
     }
@@ -9053,7 +9057,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         background-size: auto 420px
     }
     .section.header.home {
-        height: 710px;
+        height: auto;
         padding-top: 0;
         background-position: 67% 70%;
         background-size: auto 510px
@@ -9112,8 +9116,8 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        background-image: -webkit-linear-gradient(270deg, #fff, hsla(0, 0%, 100%, 0) 46%);
-        background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 46%)
+        /* background-image: -webkit-linear-gradient(270deg, #fff, hsla(0, 0%, 100%, 0) 46%); */
+        /* background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 46%) */
     }
     .floating-cell._7col.gaped {
         width: 100%;
@@ -9971,7 +9975,11 @@ html.w-mod-js [data-ix=fade-in-on-load] {
         display: none
     }
     .image-9 {
-        display: block
+        display: flex;
+        float: left;
+        filter: invert(0.2);
+        height: 40px;
+        padding: 0 6px;
     }
     .back-to-top-link {
         display: none
@@ -11007,7 +11015,8 @@ html.w-mod-js [data-ix=fade-in-on-load] {
 
 .logo-wrapper {
     height: 85px;
-    opacity: 0.8;    transition: ease 0.2s;
+    opacity: 0.8;
+    transition: ease 0.2s;
     padding: 8px;
 }
 
@@ -11051,7 +11060,6 @@ a.w-list-unstyled {
         display: none !important;
     }
 }
-
 
 .container {
     display: block;
@@ -12043,7 +12051,6 @@ h5 {
     background-image: url("img/big_hero_ornament_01-deb71018.svg");
 }
 
-
 .vertical-scroll-footer.w-inline-block {
     filter: invert(1);
 }
@@ -12167,19 +12174,39 @@ p {
     .flex-box-div {
         margin-right: auto;
         margin-left: auto;
-
     }
-
 }
 
-
-
-  .w-clearfix .w-list-unstyled:nth-of-type(1) .w-inline-block {
+.w-clearfix .w-list-unstyled:nth-of-type(1) .w-inline-block {
     height: 44px;
     line-height: 46px;
-  }
+}
 
-  #our-styles .w-inline-block {
+#our-styles .w-inline-block {
     max-width: 100%;
     display: flex;
+}
+.section.map {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 0;
+    margin-bottom: -160px;
+    z-index: 9;
+}
+.w-widget.w-widget-map {
+    padding: 0;
+    border-top-style: none;
+    border-bottom-style: none;
+    background-size: cover;
+    border: none !important;
+    box-shadow: 0 30px 48px -1px rgba(0, 0, 0, .09);
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.widget-scene-canvas{
+    filter: brightness(1.4);
 }

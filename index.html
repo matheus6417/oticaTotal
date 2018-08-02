@@ -332,10 +332,6 @@
       display: none;
     }
 
-    .light {
-      color: #fff;
-    }
-
     .header {
       background-size: cover;
       background-repeat: no-repeat;
@@ -391,6 +387,7 @@
       .section.header {
         padding-left: 0;
         padding-right: 0;
+       
       }
       ._1200-container.home-header-content {
         padding-right: 0;
@@ -403,6 +400,9 @@
       .section {
         overflow: hidden;
       }
+      .play-button__triangle {
+        left: 6px
+      }
       .section.header.home {
         display: -webkit-box;
         display: -webkit-flex;
@@ -412,7 +412,8 @@
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
-        background-size: auto 670px;
+        background-size: cover; background-image: url(img.1/banner-varilux-mobile.jpg);
+        background-size: cover;
       }
       .floating-cell {
         display: block;
@@ -534,15 +535,18 @@
         display: block;
       }
       .section.header {
-        height: 824px;
-        background-position: 70% 100%;
-        background-size: auto 420px;
+        /* height: 824px; */
+        /* background-position: 70% 100%;
+        background-size: auto 420px; */
       }
       .section.header.home {
-        height: 710px;
+        /* height: 710px; */
         padding-top: 0;
         background-position: 67% 70%;
-        background-size: auto 510px;
+        background-size: cover;
+      }
+      .section.header {
+        background-image: url(img.1/banner-varilux-mobile.jpg);
       }
       .floating-cell.h1._7col {
         position: static;
@@ -553,8 +557,8 @@
         -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        background-image: -webkit-linear-gradient(270deg, #fff, hsla(0, 0%, 100%, 0) 46%);
-        background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 46%);
+        /* background-image: -webkit-linear-gradient(270deg, #fff, hsla(0, 0%, 100%, 0) 46%); */
+        /* background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 46%); */
       }
       .floating-cell.top {
         width: auto;
@@ -1638,19 +1642,21 @@
   <div class="section header home" id="Header">
     <div class="meta">
       <div class="container w-clearfix" style="padding: 8px;">
-        <ul class="meta-list w-list-unstyled">
+        <ul class="meta-list w-list-unstyled w-hidden-small w-hidden-tiny">
           <li class="meta-list-item">
             <a target="newtab" style="color:black;opacity:0.9" href="https://www.google.com.br/maps/dir/''/otica+total+itajai/data=!4m5!4m4!1m0!1m2!1m1!1s0x94d8cc7311f8894b:0xb41b89592c4079c5?sa=X&sqi=2&ved=0ahUKEwiUyLbpqc_bAhWDWSwKHaTuDwEQ9RcIkAIwKQ">
               <div>
                 <div class="social-link w-inline-block" style="height: 40px;
                   line-height: 40px;">
                   <img class="social-icon" src="img\local.svg" style="margin-top: -4px;">
-                  <span class="w-hidden-small w-hidden-tiny">Av. Cel. Marcos Konder, 789 Itajaí - SC</span>
+                  <span class="">Av. Cel. Marcos Konder, 789 Itajaí - SC</span>
                 </div>
               </div>
             </a>
           </li>
         </ul>
+        <img src="img/otica-total-itajai.svg" class="image-9" > </a>
+
         <ul class="meta-list right w-list-unstyled">
           <li class="meta-list-item">
             <a href="tel:+55-47-3045-2661" class="home primary toggle-link w-inline-block w-tab-link" style="background-color: transparent;padding: 12px 12px;
@@ -1695,13 +1701,12 @@
       <div class="floating-cell top">
         <a class="brand w-inline-block w--current">
           <img src="img/otica-total-itajai.svg" class="image-8" style="filter: invert(1);">
-          <img src="img/otica-total-itajai.svg" width="40" class="image-9" style="filter: invert(1);"> </a>
       </div>
     </div>
     <div class="_1200-container home-header-content">
       <div class="floating-cell h1 _7col">
         <h1 class="heading-9 light"> Óculos personalizados, só para os exigentes. </h1>
-        <h1 class="heading-8 light w-hidden-small w-hidden-tiny"> A sua ótica em itajaí, agora com ainda mais benefícios. </h1>
+        <h1 class="heading-8 light "> A sua ótica em itajaí, agora com ainda mais benefícios. </h1>
         <div class="primary-action">
           <a id="btn-hero-varilux-em-dobro" href="#" class="button varilux w-button">
             <i class="features__messenger-icon" style="filter: invert(0.9);"></i> Quero lentes varilux em dobro! </a>
@@ -2923,29 +2928,31 @@
       </div>
     </div>
   </div>
-  <div data-widget-style="terrain" class="w-widget w-widget-map">
-    <div id="map"></div>
-    <div id="pano"></div>
-    <script>
-      function initialize() {
-        var fenway = {
-          lat: -26.90948,
-          lng: -48.660461
-        };
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: fenway,
-          zoom: 16
-        });
-        var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), {
-          position: fenway,
-          pov: {
-            heading: 70,
-            pitch: 10
-          }
-        });
-        map.setStreetView(panorama);
-      }
-    </script>
+  <div class="section map">
+    <div data-widget-style="terrain" class="w-widget w-widget-map">
+      <div id="map"></div>
+      <div id="pano"></div>
+      <script>
+        function initialize() {
+          var fenway = {
+            lat: -26.90948,
+            lng: -48.660461
+          };
+          var map = new google.maps.Map(document.getElementById('map'), {
+            center: fenway,
+            zoom: 16
+          });
+          var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), {
+            position: fenway,
+            pov: {
+              heading: 70,
+              pitch: 10
+            }
+          });
+          map.setStreetView(panorama);
+        }
+      </script>
+    </div>
   </div>
   <footer class="section footer">
     <div class="_1200-container footer">
@@ -2956,7 +2963,7 @@
           <div class="footer-v4-about">
             <a class="footer-logo w-nav-brand w--current" style="width: 135px;">
               <img src="img/otica-total-itajai.svg" style="filter: invert(0.95);"> </a>
-            <p class="paragraph-small"> Somos uma ótica de especialistas, estamos 100% comprometidos em entregar a melhor experiência em óculos para
+            <p class="paragraph-small light"> Somos uma ótica de especialistas, estamos 100% comprometidos em entregar a melhor experiência em óculos para
               você. </p>
             <ul class="link-list social-list w-list-unstyled">
               <li class="link-list-item">
@@ -2994,7 +3001,7 @@
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"> -->
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsMAiiLaY985OTjMI8pG-SCRiGbS3I_Cc&callback=initialize">
   </script>
-<script src="js/jquery-3.3.1.js"  type="text/javascript" charset="utf-8"></script>
+  <script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
   <!-- [if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script src="js/staging.8e703e4dc.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/footer-staging.js" type="text/javascript" charset="utf-8"></script>
