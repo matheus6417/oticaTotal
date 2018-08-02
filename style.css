@@ -11317,7 +11317,8 @@ img {
 
 #showcase .sec-wrapper {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
+    min-height:720px;
     position: absolute;
     top: 0;
     left: 0;
