@@ -3179,7 +3179,9 @@ p {
     color: #222;
     font-weight: 300;
 }
-
+.heading-2.heading-2.what.compact.demo-version.kicker{
+    font-size: 12px;
+}
 .heading-2.panes {
     margin-bottom: 0;
     font-family: Tiemposheadlineweb, Georgia, sans-serif;
@@ -3919,57 +3921,6 @@ p {
 }
 
 /*! CSS Used from: html */
-
-.gm-style .gm-style-mtc label,
-.gm-style .gm-style-mtc div {
-    font-weight: 400;
-}
-
-/*! CSS Used from: Embedded */
-
-.gm-style .gm-style-cc span,
-.gm-style .gm-style-cc a,
-.gm-style .gm-style-mtc div {
-    font-size: 10px;
-}
-
-/*! CSS Used from: Embedded */
-
-@media print {
-    .gm-style .gmnoprint,
-    .gmnoprint {
-        display: none;
-    }
-}
-
-@media screen {
-    .gm-style .gmnoscreen,
-    .gmnoscreen {
-        display: none;
-    }
-}
-
-/*! CSS Used from: Embedded */
-
-.gm-style-pbc {
-    transition: opacity ease-in-out;
-    background-color: rgba(0, 0, 0, 0.45);
-    text-align: center;
-}
-
-.gm-style-pbt {
-    font-size: 22px;
-    color: white;
-    font-family: Roboto, Arial, sans-serif;
-    position: relative;
-    margin: 0;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-/*! CSS Used from: Embedded */
 
 body {
     margin: 0;
@@ -7429,17 +7380,17 @@ h4.heading-2 {
 
 .frame.sh1 {
     height: 200px;
-    background-image: url(img%5Cperto-p-longe-xs.jpg);
+    background-image: url(img/perto-p-longe-xs.jpg);
 }
 
 .frame.sh2 {
     height: 200px;
-    background-image: url(img%5Cvisao-supernitida-xs.jpg);
+    background-image: url(img/visao-supernitida-xs.jpg);
 }
 
 .frame.sh3 {
     height: 200px;
-    background-image: url(img%5Cefeito_de_flutuacao-xs.jpg);
+    background-image: url(img/efeito_de_flutuacao-xs.jpg);
 }
 
 .frame.fr1,
