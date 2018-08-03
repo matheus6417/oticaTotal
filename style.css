@@ -1,4 +1,4 @@
-﻿b,
+b,
 h1,
 h2,
 h3,
@@ -11026,6 +11026,7 @@ html.w-mod-js [data-ix=fade-in-on-load] {
     opacity: 0.8;
     transition: ease 0.2s;
     padding: 8px;
+    margin: 8px;
 }
 
 .logo-wrapper:hover {
@@ -11458,6 +11459,9 @@ section {
     .w-hidden-medium {
         display: none !important;
     }
+    .play-button__triangle{
+        left:0;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -11467,6 +11471,9 @@ section {
     .w-hidden-medium {
         display: inherit !important;
     }
+    .play-button__triangle {
+        left: 10%;}
+        }
 }
 
 @media screen and (max-width: 479px) {
@@ -11982,7 +11989,7 @@ h5 {
 }
 
 .small-video {
-    overflow: hidden;
+    overflow: visible;
     max-width: 440px;
     margin-top: 0;
     cursor: pointer;
@@ -12017,7 +12024,7 @@ h5 {
 
 @media (max-width: 767px) {
     .small-video {
-        margin: 60px 0 0;
+        margin: 20px 0 0;
         z-index: 9;
         max-width: 90%;
     }
