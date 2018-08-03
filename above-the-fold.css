@@ -4651,6 +4651,7 @@ p {
 .meta-list.right {
     float: right;
     text-align: right;
+    display:;
     /* margin-top: -4px; */
 }
 
@@ -10010,7 +10011,7 @@ h5 {
 }
 
 .small-video {
-    overflow: visible;
+    overflow: h;
     max-width: 440px;
     margin-top: 0;
     cursor: pointer;
