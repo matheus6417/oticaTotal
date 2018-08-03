@@ -1,4 +1,4 @@
-b,
+﻿b,
 h1,
 h2,
 h3,
@@ -4074,13 +4074,13 @@ h4.heading-2 {
 
 .frame.sh1{
     height: 200px;
-    background-image: url(img\perto-p-longe-xs.jpg)
+    background-image: url(img/perto-p-longe-xs.jpg)
 }.frame.sh2{
     height: 200px;
-    background-image: url(img\visao-supernitida-xs.jpg)
+    background-image: url(img/visao-supernitida-xs.jpg)
 }.frame.sh3{
     height: 200px;
-    background-image: url(img\efeito_de_flutuacao-xs.jpg)
+    background-image: url(img/efeito_de_flutuacao-xs.jpg)
 }
 
 
