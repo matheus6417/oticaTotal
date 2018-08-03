@@ -731,7 +731,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .meta-list.right {
     float: right;
     text-align: right;
-    margin-top: -4px;
+    /* margin-top: -4px; */
 }
 
 .meta-list-item {
@@ -4651,7 +4651,7 @@ p {
 .meta-list.right {
     float: right;
     text-align: right;
-    margin-top: -4px;
+    /* margin-top: -4px; */
 }
 
 .meta-list-item {
