@@ -2316,14 +2316,7 @@ figcaption {
     background-color: #f8f8f8;
 }
 
-.section.footer {
-    height: auto;
-    padding: 80px 16px;
-    background-color: #222;
-    background-image: url(img/5ac378c1795e75a768cf230c_footer_texture.png);
-    background-position: 0 0;
-    background-size: auto
-}
+
 
 .section.footer.assessment-page {
     z-index: 300;
@@ -2334,14 +2327,6 @@ figcaption {
     background-image: none
 }
 
-.section.footer.assessment-page.web-experiment {
-    border-top: 1px solid rgba(102, 85, 255, .1);
-    border-bottom-style: solid;
-    border-bottom-color: rgba(102, 85, 255, .1);
-    background-image: url(img/5b199c517ca36c3c5825badd_CTA_PANEL_2.png);
-    background-position: 50% 50%;
-    background-size: cover
-}
 
 .section.content-page-section {
     padding-top: 40px;
