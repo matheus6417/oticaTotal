@@ -46,7 +46,7 @@
     .w-col-tiny-11 {
         width: 91.66666667%
     }
-    .w-col-tiny-12 {
+    .w-col-tiny-12 { 
         width: 100%
     }
     .w-nav[data-collapse=tiny] .w-dropdown,
