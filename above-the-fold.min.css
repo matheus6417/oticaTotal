@@ -5079,7 +5079,7 @@ h5 {
 }
 
 .small-video {
-    overflow: h;
+    overflow: hidden;
     max-width: 440px;
     margin-top: 0;
     cursor: pointer;
