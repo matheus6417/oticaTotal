@@ -92,18 +92,63 @@ button::-moz-focus-inner {
 }
 
 /*! CSS Used from: style.css */
- 
-.otica-total-itajai-transitions, .otica-total-itajai-varilux, .otica-total-itajai-hoya, .otica-total-itajai-ray-ban, .otica-total-itajai-crizal, 
-.otica-total-itajai-essilor, .otica-total-itajai-zeizz
-{ display: inline-block; background: url('img/brands/brands.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
- 
-.otica-total-itajai-transitions { background-position: -2px -0px; width: 150px; height: 39px; }
-.otica-total-itajai-varilux { background-position: -2px -41px; width: 150px; height: 21px; }
-.otica-total-itajai-hoya { background-position: -2px -64px; width: 140px; height: 36px; }
-.otica-total-itajai-ray-ban { background-position: -2px -102px; width: 114px; height: 78px; }
-.otica-total-itajai-crizal { background-position: -2px -182px; width: 105px; height: 28px; }
-.otica-total-itajai-essilor { background-position: -2px -212px; width: 84px; height: 62px; }
-.otica-total-itajai-zeizz { background-position: -88px -212px; width: 50px; height: 50px; }
+
+.otica-total-itajai-transitions,
+.otica-total-itajai-varilux,
+.otica-total-itajai-hoya,
+.otica-total-itajai-ray-ban,
+.otica-total-itajai-crizal,
+.otica-total-itajai-essilor,
+.otica-total-itajai-zeizz {
+    display: inline-block;
+    background: url('img/brands/brands.png') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+}
+
+.otica-total-itajai-transitions {
+    background-position: -2px -0px;
+    width: 150px;
+    height: 39px;
+}
+
+.otica-total-itajai-varilux {
+    background-position: -2px -41px;
+    width: 150px;
+    height: 21px;
+}
+
+.otica-total-itajai-hoya {
+    background-position: -2px -64px;
+    width: 140px;
+    height: 36px;
+}
+
+.otica-total-itajai-ray-ban {
+    background-position: -2px -102px;
+    width: 114px;
+    height: 78px;
+}
+
+.otica-total-itajai-crizal {
+    background-position: -2px -182px;
+    width: 105px;
+    height: 28px;
+}
+
+.otica-total-itajai-essilor {
+    background-position: -2px -212px;
+    width: 84px;
+    height: 62px;
+}
+
+.otica-total-itajai-zeizz {
+    background-position: -88px -212px;
+    width: 50px;
+    height: 50px;
+}
+
 h1 {
     margin: .67em 0
 }
@@ -1905,9 +1950,9 @@ h4 {
 
 .benefits .div-block-3 {
     min-width: 32%;
-    flex: 1;    align-items: stretch;
+    flex: 1;
+    align-items: stretch;
     display: flex;
-
 }
 
 .section.lined.promise {
@@ -2272,7 +2317,54 @@ h4.heading-2 {
     flex-wrap: wrap
 }
 
+.poc-block {
+    display: flex;
+    width: 460px;
+    height: 480px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 28px;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    background-image: url(img/5ad50072b89caca17df956b9_How-It-Works-v4-1.svg);
+    background-position: 0 0
+}
 
+.poc-block.web-experiment-3 {
+    height: 300px;
+    background-image: url(img/5b16e186b16e3e5a48201346_Union.png);
+    background-size: contain
+}
+
+.poc-block.web-experiment-3.cortland {
+    background-image: url(img/5b16e16eb16e3e43d62012e6_Cortland.png)
+}
+
+.poc-block.web-experiment-3.lombard {
+    background-image: url(img/5b16e25e627e3111321956b7_Bay.png)
+}
+
+.poc-block.web-experiment-3.bay {
+    background-image: url(img/5b16e2737b6de36adf5b5149_Octavia.png)
+}
+
+.poc-block.web-experiment-3.octavia {
+    background-image: url(img/5b16e287b16e3e23ce2015e2_Montgomery.png)
+}
+
+.poc-block.web-experiment-3.montgomery {
+    background-image: url(img/5b16e29ba1e1ca72350b29ec_Sansome.png)
+}
+
+.poc-block.web-experiment-3.sansome {
+    background-image: url(img/5b16e2b056453f5c3e847ff3_Dolores.png)
+}
+
+.poc-block.web-experiment-3.dolores {
+    background-image: url(img/5b16e2c3b16e3e617220168b_Angel.png)
+}
 
 .pane-content,
 .pane-content.cheeks,
@@ -2493,11 +2585,8 @@ h4.heading-2 {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    justify-content: space-between;<
-    img class="img-5b3fe5b53631e8cf4af4bec3-checkmark-purple" alt="" src="data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeAQMAAAAB/jzhAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBiMAAAAlgABjcjBIQAAAABJRU5ErkJggg==">;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    justify-content: space-between;
+ 
     overflow: hidden;
 }
 
@@ -2521,7 +2610,6 @@ h4.heading-2 {
     min-height: 45px;
     margin-right: 8px;
     margin-left: 8px;
-    
 }
 
 .frame {
