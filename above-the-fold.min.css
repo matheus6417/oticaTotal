@@ -90,6 +90,15 @@ button::-moz-focus-inner {
         padding-top: 20px
     }
 }
+.whatsapp {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/PjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBzdHlsZT0iZmlsbDojNENBRjUwOyIgZD0iTTI1Ni4wNjQsMGgtMC4xMjhsMCwwQzExNC43ODQsMCwwLDExNC44MTYsMCwyNTZjMCw1NiwxOC4wNDgsMTA3LjkwNCw0OC43MzYsMTUwLjA0OGwtMzEuOTA0LDk1LjEwNGw5OC40LTMxLjQ1NkMxNTUuNzEyLDQ5Ni41MTIsMjA0LDUxMiwyNTYuMDY0LDUxMkMzOTcuMjE2LDUxMiw1MTIsMzk3LjE1Miw1MTIsMjU2UzM5Ny4yMTYsMCwyNTYuMDY0LDB6Ii8+PHBhdGggc3R5bGU9ImZpbGw6I0ZBRkFGQTsiIGQ9Ik00MDUuMDI0LDM2MS41MDRjLTYuMTc2LDE3LjQ0LTMwLjY4OCwzMS45MDQtNTAuMjQsMzYuMTI4Yy0xMy4zNzYsMi44NDgtMzAuODQ4LDUuMTItODkuNjY0LTE5LjI2NEMxODkuODg4LDM0Ny4yLDE0MS40NCwyNzAuNzUyLDEzNy42NjQsMjY1Ljc5MmMtMy42MTYtNC45Ni0zMC40LTQwLjQ4LTMwLjQtNzcuMjE2czE4LjY1Ni01NC42MjQsMjYuMTc2LTYyLjMwNGM2LjE3Ni02LjMwNCwxNi4zODQtOS4xODQsMjYuMTc2LTkuMTg0YzMuMTY4LDAsNi4wMTYsMC4xNiw4LjU3NiwwLjI4OGM3LjUyLDAuMzIsMTEuMjk2LDAuNzY4LDE2LjI1NiwxMi42NGM2LjE3NiwxNC44OCwyMS4yMTYsNTEuNjE2LDIzLjAwOCw1NS4zOTJjMS44MjQsMy43NzYsMy42NDgsOC44OTYsMS4wODgsMTMuODU2Yy0yLjQsNS4xMi00LjUxMiw3LjM5Mi04LjI4OCwxMS43NDRjLTMuNzc2LDQuMzUyLTcuMzYsNy42OC0xMS4xMzYsMTIuMzUyYy0zLjQ1Niw0LjA2NC03LjM2LDguNDE2LTMuMDA4LDE1LjkzNmM0LjM1Miw3LjM2LDE5LjM5MiwzMS45MDQsNDEuNTM2LDUxLjYxNmMyOC41NzYsMjUuNDQsNTEuNzQ0LDMzLjU2OCw2MC4wMzIsMzcuMDI0YzYuMTc2LDIuNTYsMTMuNTM2LDEuOTUyLDE4LjA0OC0yLjg0OGM1LjcyOC02LjE3NiwxMi44LTE2LjQxNiwyMC0yNi40OTZjNS4xMi03LjIzMiwxMS41ODQtOC4xMjgsMTguMzY4LTUuNTY4YzYuOTEyLDIuNCw0My40ODgsMjAuNDgsNTEuMDA4LDI0LjIyNGM3LjUyLDMuNzc2LDEyLjQ4LDUuNTY4LDE0LjMwNCw4LjczNkM0MTEuMiwzMjkuMTUyLDQxMS4yLDM0NC4wMzIsNDA1LjAyNCwzNjEuNTA0eiIvPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjwvc3ZnPg==);
+}
+.telephone {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/PjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4MC41NiA0ODAuNTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ4MC41NiA0ODAuNTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48Zz48Zz48cGF0aCBkPSJNMzY1LjM1NCwzMTcuOWMtMTUuNy0xNS41LTM1LjMtMTUuNS01MC45LDBjLTExLjksMTEuOC0yMy44LDIzLjYtMzUuNSwzNS42Yy0zLjIsMy4zLTUuOSw0LTkuOCwxLjhjLTcuNy00LjItMTUuOS03LjYtMjMuMy0xMi4yYy0zNC41LTIxLjctNjMuNC00OS42LTg5LTgxYy0xMi43LTE1LjYtMjQtMzIuMy0zMS45LTUxLjFjLTEuNi0zLjgtMS4zLTYuMywxLjgtOS40YzExLjktMTEuNSwyMy41LTIzLjMsMzUuMi0zNS4xYzE2LjMtMTYuNCwxNi4zLTM1LjYtMC4xLTUyLjFjLTkuMy05LjQtMTguNi0xOC42LTI3LjktMjhjLTkuNi05LjYtMTkuMS0xOS4zLTI4LjgtMjguOGMtMTUuNy0xNS4zLTM1LjMtMTUuMy01MC45LDAuMWMtMTIsMTEuOC0yMy41LDIzLjktMzUuNywzNS41Yy0xMS4zLDEwLjctMTcsMjMuOC0xOC4yLDM5LjFjLTEuOSwyNC45LDQuMiw0OC40LDEyLjgsNzEuM2MxNy42LDQ3LjQsNDQuNCw4OS41LDc2LjksMTI4LjFjNDMuOSw1Mi4yLDk2LjMsOTMuNSwxNTcuNiwxMjMuM2MyNy42LDEzLjQsNTYuMiwyMy43LDg3LjMsMjUuNGMyMS40LDEuMiw0MC00LjIsNTQuOS0yMC45YzEwLjItMTEuNCwyMS43LTIxLjgsMzIuNS0zMi43YzE2LTE2LjIsMTYuMS0zNS44LDAuMi01MS44QzQwMy41NTQsMzU1LjksMzg0LjQ1NCwzMzYuOSwzNjUuMzU0LDMxNy45eiIvPjxwYXRoIGQ9Ik0zNDYuMjU0LDIzOC4ybDM2LjktNi4zYy01LjgtMzMuOS0yMS44LTY0LjYtNDYuMS04OWMtMjUuNy0yNS43LTU4LjItNDEuOS05NC00Ni45bC01LjIsMzcuMWMyNy43LDMuOSw1Mi45LDE2LjQsNzIuOCwzNi4zQzMyOS40NTQsMTg4LjIsMzQxLjc1NCwyMTIsMzQ2LjI1NCwyMzguMnoiLz48cGF0aCBkPSJNNDAzLjk1NCw3Ny44Yy00Mi42LTQyLjYtOTYuNS02OS41LTE1Ni03Ny44bC01LjIsMzcuMWM1MS40LDcuMiw5OCwzMC41LDEzNC44LDY3LjJjMzQuOSwzNC45LDU3LjgsNzksNjYuMSwxMjcuNWwzNi45LTYuM0M0NzAuODU0LDE2OS4zLDQ0NC4zNTQsMTE4LjMsNDAzLjk1NCw3Ny44eiIvPjwvZz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PC9zdmc+);
+}
+.local {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/PjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU0Ljc1NyA1NC43NTciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU0Ljc1NyA1NC43NTc7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNNDAuOTQsNS42MTdDMzcuMzE4LDEuOTk1LDMyLjUwMiwwLDI3LjM4LDBjLTUuMTIzLDAtOS45MzgsMS45OTUtMTMuNTYsNS42MTdjLTYuNzAzLDYuNzAyLTcuNTM2LDE5LjMxMi0xLjgwNCwyNi45NTJMMjcuMzgsNTQuNzU3TDQyLjcyMSwzMi42QzQ4LjQ3NiwyNC45MjksNDcuNjQzLDEyLjMxOSw0MC45NCw1LjYxN3ogTTI3LjU1NywyNmMtMy44NTksMC03LTMuMTQxLTctN3MzLjE0MS03LDctN3M3LDMuMTQxLDcsN1MzMS40MTYsMjYsMjcuNTU3LDI2eiIvPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjwvc3ZnPg==);
+}
 
 /*! CSS Used from: style.css */
 
@@ -1239,6 +1248,9 @@ svg:not(:root) {
     transform-origin: 22.5px 0
 }
 
+.checkmark-purple {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABKUlEQVRIie3Wu04CQRiG4ZHKSCMxsbCisyVKtDEmlsYWYgRK5AK8BCtLC26AC6Cx1NjYWWoNHQWnEE4RSMTx++O3CVmOcXZnmy2eZtnZd+cAQWmtVRACiYbhMLzQ28vmJmMPw4X0WnF4hotux154C8qgIW8zfAXf8Ak7tsJR+IAfuJRrtsJ3XOInLrmV8AH06NC57ndYZlfibO9nP/M7fA4TqMKucXg40Kr4oCOwB8rhim7DO2ebcr/Uv8IyCIMz0IfrJXtbYPTVOVBehY+gDV9w43pwDBow4n1zL2YSFsfQ4j7mZh5c5Gwfl33FTMPiFOqMZyHJVajBvp9hcQJNLm2Fs71d8YPiWVgkuK+apzliKyzOeIoXHijj8HT6N9AtsD8CXgnDYdg3vz/OkK9Ppp3BAAAAAElFTkSuQmCC);
+}
 .gm-compass:hover .gm-compass-arrow-right,
 .gm-compass:hover .gm-compass-tooltip-text {
     opacity: 1;
@@ -1930,9 +1942,8 @@ h4 {
     padding-left: 0;
     background-position: 50% 50%;
     background-size: cover;
-    background-image: url(img/banner-varilux-1920.jpg)
+    background-image: url(https://res.cloudinary.com/otica-total/image/upload/c_limit,dpr_1,h_704,q_auto,w_1453/v1533842426/home/banner-varilux-1920.jpg)
 }
-
 .section.lined {
     padding-bottom: 80px;
     border-style: solid none;
@@ -1960,7 +1971,7 @@ h4 {
     margin-bottom: 0;
     padding-top: 145px;
     padding-bottom: 0;
-    background-image: url(img/varilux-bg-1.jpg);
+    background-image: url(https://res.cloudinary.com/otica-total/image/upload/c_limit,dpr_1,h_768,q_auto,w_1586/v1533842460/home/varilux-bg-1.jpg);
     background-position: 50% 100%;
     background-size: cover;
     margin-right: 16px;
@@ -1968,7 +1979,6 @@ h4 {
     border: none !important;
     border-radius: 14px
 }
-
 .body,
 .section.footer {
     background-position: 0 0;
@@ -2528,7 +2538,7 @@ h4.heading-2 {
 }
 
 .pane-content.default {
-    background-image: url(img/5addb4dac66eeba2e7509395_purple-frames@2x.png)
+    background-image: url(https://res.cloudinary.com/otica-total/image/upload/c_limit,dpr_1,h_381,q_auto,w_683/v1533842338/home/5addb4dac66eeba2e7509395_purple-frames_2x.png)
 }
 
 .pane-content.eyelashes {
@@ -3176,7 +3186,7 @@ html.w-mod-js [data-ix=tab-content-fades-in] {
     }
     .section.lined.promise {
         padding-top: 32px;
-        background-image: url(img/varilux-bg-1.jpg);
+        background-image: url(https://res.cloudinary.com/otica-total/image/upload/c_limit,dpr_1,h_768,q_auto,w_1586/v1533842460/home/varilux-bg-1.jpg);
         background-position: 62% 100%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -3483,7 +3493,7 @@ html.w-mod-js [data-ix=tab-content-fades-in] {
         height: auto;
         padding-top: 20px;
         background-color: #fafafa;
-        background-image: url(img/varilux-bg-1.jpg);
+        background-image: url(https://res.cloudinary.com/otica-total/image/upload/c_limit,dpr_1,h_768,q_auto,w_1586/v1533842460/home/varilux-bg-1.jpg);
         background-position: 68% 131%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -4510,7 +4520,7 @@ ul {
 }
 
 #showcase {
-    background-image: url(img/perto-longe-blur.jpg);
+    background-image: url(https://res.cloudinary.com/otica-total/image/upload/c_limit,dpr_1,h_800,q_auto,w_1807/v1533842454/home/perto-longe-blur.jpg);
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
