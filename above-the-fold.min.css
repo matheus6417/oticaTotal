@@ -4913,7 +4913,8 @@ h5 {
         border-width: 8px
     }
     .image-section.testimonials-section {
-        padding-bottom: 24px
+        padding-bottom: 24px;
+        margin-top:50px;
     }
     .testimonials {
         padding-right: 40px;
