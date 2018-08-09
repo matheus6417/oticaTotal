@@ -24,9 +24,9 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/lozad.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/first-staging.min.js" type="text/javascript" charset="utf-8"></script>
+  <script async src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script async src="js/lozad.min.js" type="text/javascript" charset="utf-8"></script>
+  <!-- <script src="js/first-staging.min.js" type="text/javascript" charset="utf-8"></script> -->
   <script>
     const observer = lozad(); // lazy loads elements with default selector as '.lozad'
     observer.observe();
@@ -227,7 +227,7 @@
       <div class="_1200-container home-header-content">
         <div class="floating-cell h1 _7col">
           <h1 class="heading-9 light"> Óculos personalizados, só para os exigentes. </h1>
-          <h1 class="heading-8 light"> A sua ótica em itajaí, agora com ainda mais benefícios. </h1>
+          <h2 class="heading-8 light"> A sua ótica em itajaí, agora com ainda mais benefícios. </h2>
           <div class="primary-action">
             <a id="btn-hero-varilux-em-dobro" href="#" class="button varilux w-button">
               <i class="features__messenger-icon" style="filter: invert(0.9);"></i> Quero lentes varilux em dobro! </a>
@@ -1512,68 +1512,68 @@
       </div>
     </footer>
   </div>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsMAiiLaY985OTjMI8pG-SCRiGbS3I_Cc&callback=initialize">
-  </script>
-  <!-- [if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script src="js/staging.8e703e4dc.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/footer-staging.min.js" type="text/javascript" charset="utf-8"></script>
-  <script>
-    // On page ready
-    var Webflow = Webflow || [];
-    Webflow.push(function () {
-      // When a lightbox is clicked
-      $('.w-lightbox').click(function () {
-        // Get the data-caption attribute from the lightbox
-        caption = $(this).data('caption');
-        // If caption is missing, do nothing
-        if (typeof caption == 'undefined' || caption == '') return;
-        // Remove the existing caption (if any)
-        $('.w-lightbox-caption').remove();
-        // Append the caption into the lightbox after a split second
-        setTimeout(function () {
-          $('.w-lightbox-figure').append('<figcaption class="w-lightbox-caption">' + caption +
-            '</figcaption>');
-        }, 500);
-      }); // End lightbox clicked
-    }); // End ready function
-  </script>
-  <script>
-    function initialize() {
-      var fenway = {
-        lat: -26.90948,
-        lng: -48.660461
-      };
-      var map = new google.maps.Map(document.getElementById('map'), {
-        center: fenway,
-        zoom: 16
-      });
-      var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), {
-        position: fenway,
-        pov: {
-          heading: 70,
-          pitch: 10
-        }
-      });
-      map.setStreetView(panorama);
-    }
-  </script>
-  <div id="fb-root"></div>
-  <script>
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s);
-      js.id = id;
-      js.src =
-        'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1&appId=1727262127341833&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
-  <script>
-    javascript: document.body.contentEditable = 'true';
-    document.designMode = 'on';
-    void 0
-  </script>
+  
 </body>
-
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsMAiiLaY985OTjMI8pG-SCRiGbS3I_Cc&callback=initialize">
+</script>
+<!-- [if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+<script async defer src="js/staging.8e703e4dc.min.js" type="text/javascript" charset="utf-8"></script>
+<script async defer  src="js/footer-staging.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+  // On page ready
+  var Webflow = Webflow || [];
+  Webflow.push(function () {
+    // When a lightbox is clicked
+    $('.w-lightbox').click(function () {
+      // Get the data-caption attribute from the lightbox
+      caption = $(this).data('caption');
+      // If caption is missing, do nothing
+      if (typeof caption == 'undefined' || caption == '') return;
+      // Remove the existing caption (if any)
+      $('.w-lightbox-caption').remove();
+      // Append the caption into the lightbox after a split second
+      setTimeout(function () {
+        $('.w-lightbox-figure').append('<figcaption class="w-lightbox-caption">' + caption +
+          '</figcaption>');
+      }, 500);
+    }); // End lightbox clicked
+  }); // End ready function
+</script>
+<script async defer>
+  function initialize() {
+    var fenway = {
+      lat: -26.90948,
+      lng: -48.660461
+    };
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: fenway,
+      zoom: 16
+    });
+    var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), {
+      position: fenway,
+      pov: {
+        heading: 70,
+        pitch: 10
+      }
+    });
+    map.setStreetView(panorama);
+  }
+</script>
+<div id="fb-root"></div>
+<script async defer>
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src =
+      'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1&appId=1727262127341833&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
+  javascript: document.body.contentEditable = 'true';
+  document.designMode = 'on';
+  void 0
+</script>
 </html>
