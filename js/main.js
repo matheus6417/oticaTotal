@@ -134,7 +134,7 @@
             });
         } else {
             // Default countdown
-            clock.countdown('2018/08/14 20:00:00').on('update.countdown', function(event) {
+            clock.countdown('2018/08/27 00:00:00').on('update.countdown', function(event) {
                 var output = [
                     '<div class="counter-container"><div class="counter-box first"><div class="number">%-D</div><span>Dia%!d</span></div>', //Days
                     '<div class="counter-box"><div class="number">%H</div><span>Horas</span></div>', //Hours
