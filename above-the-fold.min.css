@@ -653,7 +653,7 @@ svg:not(:root) {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
                 flex-direction: column;
-        background-image: url(img.bkp/banner-varilux-mobile.jpg);
+        background-image: url(img/banner-varilux-mobile.jpg);
         background-size: cover
     }
     .floating-cell {
@@ -776,7 +776,7 @@ svg:not(:root) {
         background-size: cover
     }
     .section.header {
-        background-image: url(img.bkp/banner-varilux-mobile.jpg)
+        background-image: url(img/banner-varilux-mobile.jpg)
     }
     .floating-cell.h1._7col {
         position: static;
@@ -1942,7 +1942,7 @@ h4 {
 }
 
 .full-width {
-    width: 100%
+    width: 100%;
 }
 
 .benefits .div-block-3 {
@@ -2381,9 +2381,9 @@ h4.heading-2 {
 
 .image {
     position: absolute;
-    right: 80px;
-    bottom: 0;
-    z-index: -10
+    left: 80px;
+    /* bottom: 0; */
+    /* z-index: -10; */
 }
 
 .tabs {
@@ -5828,3 +5828,9 @@ img {
 }
 
 /*! CSS Used fontfaces */
+
+.benefits .full-width {
+    max-height: 70px;
+    margin: 20px;
+    width: auto;
+}
